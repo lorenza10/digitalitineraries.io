@@ -1,0 +1,80 @@
+id,location,date,month,year,month(no),time,comments,latitude,longitude
+1,Carrouges,21,Sept,1136,9,21-9-1136,,48.5683,-0.1444
+2,Ecouché,21,Sept,1136,9,21-9-1136,,48.718,-0.1236
+3,Saint-Georges d'Asnebec,21,Sept,1136,9,21-9-1136,(Saint-Georges-d'Annebecq),48.6339,-0.2639
+4,Montreuil-au-Houlme,21,Sept,1136,9,21-9-1136,,48.6872,-0.2619
+5,Moutiers-Hubert,21,Sept,1136,9,21-9-1136,,48.9775,0.2675
+6,Le Sap,1,Oct,1136,10,1-10-1136,,48.895,0.3394
+7,Sées,4,Oct,1136,10,4-10-1136,,48.6053,0.1719
+8,Basoches,,,1137,,1137,,49.1711,0.5503
+9,Argences,,,1137,,1137,,49.1269,-0.1664
+10,Gué Béranger,,,1137,,1137,,49.1222,-0.1972
+11,Anjou,,,1137,,1137,,47.473612,-0.554167
+12,Falaise,1,Oct,1138,10,1-10-1138,"Appears as ""Falaise (unsuccessful siege)"" in text",48.897222,-0.1975
+13,Falaise,2,Oct,1138,10,2-10-1138,"Appears as ""Falaise (unsuccessful siege)"" in text",48.897222,-0.1975
+14,Falaise,3,Oct,1138,10,3-10-1138,"Appears as ""Falaise (unsuccessful siege)"" in text",48.897222,-0.1975
+15,Falaise,4,Oct,1138,10,4-10-1138,"Appears as ""Falaise (unsuccessful siege)"" in text",48.897222,-0.1975
+16,Falaise,5,Oct,1138,10,5-10-1138,"Appears as ""Falaise (unsuccessful siege)"" in text",48.897222,-0.1975
+17,Falaise,6,Oct,1138,10,6-10-1138,"Appears as ""Falaise (unsuccessful siege)"" in text",48.897222,-0.1975
+18,Falaise,7,Oct,1138,10,7-10-1138,"Appears as ""Falaise (unsuccessful siege)"" in text",48.897222,-0.1975
+19,Falaise,8,Oct,1138,10,8-10-1138,"Appears as ""Falaise (unsuccessful siege)"" in text",48.897222,-0.1975
+20,Falaise,9,Oct,1138,10,9-10-1138,"Appears as ""Falaise (unsuccessful siege)"" in text",48.897222,-0.1975
+21,Falaise,10,Oct,1138,10,10-10-1138,"Appears as ""Falaise (unsuccessful siege)"" in text",48.897222,-0.1975
+22,Falaise,11,Oct,1138,10,11-10-1138,"Appears as ""Falaise (unsuccessful siege)"" in text",48.897222,-0.1975
+23,Falaise,12,Oct,1138,10,12-10-1138,"Appears as ""Falaise (unsuccessful siege)"" in text",48.897222,-0.1975
+24,Falaise,13,Oct,1138,10,13-10-1138,"Appears as ""Falaise (unsuccessful siege)"" in text",48.897222,-0.1975
+25,Falaise,14,Oct,1138,10,14-10-1138,"Appears as ""Falaise (unsuccessful siege)"" in text",48.897222,-0.1975
+26,Falaise,15,Oct,1138,10,15-10-1138,"Appears as ""Falaise (unsuccessful siege)"" in text",48.897222,-0.1975
+27,Falaise,16,Oct,1138,10,16-10-1138,"Appears as ""Falaise (unsuccessful siege)"" in text",48.897222,-0.1975
+28,Falaise,17,Oct,1138,10,17-10-1138,"Appears as ""Falaise (unsuccessful siege)"" in text",48.897222,-0.1975
+29,Falaise,18,Oct,1138,10,18-10-1138,"Appears as ""Falaise (unsuccessful siege)"" in text",48.897222,-0.1975
+30,Touques,,Nov,1139,11,11-1139,,49.3433,0.1028
+31,Lisieux,5,Apr,1141,4,5-4-1141,"Appears as ""c.5 Apr"" in text",49.15,0.23
+32,Falaise,5,Apr,1141,4,5-4-1141,"Appears as ""c.5 Apr"" in text",48.897222,-0.1975
+33,Aulnay,,,1142,,1142,,49.0211,-0.6308
+34,Mortain,,,1142,,1142,,48.6486,-0.9397
+35,Tinchebray,,,1142,,1142,,48.7636,-0.7331
+36,Cérences,,,1142,,1142,,48.9169,-1.4342
+37,Le Teilleul,,,1142,,1142,,48.5393,-0.8735
+38,St.-Hilaire-du-HarcouÃ«t,,,1142,,1142,,48.5212,-1.0904
+39,Briquesard,,,1142,,1142,"Appears as ""Briquesard (in Livry)"" in text",49.1089,-0.7644
+40,Bastonbourg,,,1142,,1142,,,
+41,Trévières,,,1142,,1142,,49.3092,-0.903
+42,Vire,,,1142,,1142,,48.84,-0.89
+43,Villers-Bocage,,,1142,,1142,,49.08,-0.66
+44,Pontorson,,,1142,,1142,,48.5534,-1.5068
+45,Avranches,,,1142,,1142,,48.685,-1.3556
+46,Saint-Lo,,,1142,,1142,,49.12,-1.09
+47,Coutances,,,1142,,1142,,49.05,-1.44
+48,Cherbourg,,,1142,,1142,,49.63,-1.62
+49,Verneuil,,,1143,,,,48.7394,0.9286
+50,Le Vaudreuil,,,1143,,,,49.2569,1.2067
+51,Vernon,14,jan,1144,1,14-1-1144,"Appears as ""c. 14 Jan"" in text",49.09,1.49
+52,Rouen,20,jan,1144,1,20-1-1144,,49.442778,1.088611
+53,Rouen,23,Apr,1144,4,23-4-1144,"Appears as ""Rouen(Duke of Normandy)""",49.442778,1.088611
+54,Neufchâtel-en-Bray,23,Apr,1144,4,23-4-1144,,49.73,1.44
+55,Lyons-la-Foret,23,Apr,1144,4,23-4-1144,,49.4003,1.4769
+56,Arques,,Summer,1145,,Summer-1145,,50.7361,2.3033
+57,Rouen,,Summer,1145,,Summer-1145,,49.442778,1.088611
+58,Angers,,Summer,1145,,Summer-1145,,47.473612,-0.554167
+59,Baugé,8,Apr,1146,4,8-4-1146,,48.0077,0.1984
+60,Le Mans,8,Apr,1146,4,8-4-1146,,48.0077,0.1984
+61,Courcy-sur-Dives,8,Apr,1146,4,8-4-1146,,48.9722,-0.0419
+62,Rouen,8,Apr,1146,4,8-4-1146,,49.442778,1.088611
+63,Vendôme,23,Feb,1147,2,23-2-1147,,47.7936,1.0664
+64,Saumur,23,Feb,1147,2,23-2-1147,,47.26,-0.0769
+65,Mirebeau,20,Apr,1147,4,20-4-1147,"Appears as ""After 20 Apr"" in text",46.7858,0.1825
+66,Argentan,20,Apr,1147,4,20-4-1147,,48.75,-0.02
+67,Rouen,11,Oct,1147,10,11-10-1147,,49.442778,1.088611
+68,Fauguernon,,,1148,,1148,"Appears as ""Fauguernon, nr. Lisieux"" in text",49.1925,0.2717
+69,Le Mans,12,Jan,1149,1,12-1-1149,,48.0077,0.1984
+70,Le Bec-Hellouin,27,Mar,1149,3,27-3-1149,,49.2325,0.7217
+71,Rouen,27,Mar,1149,3,27-3-1149,,49.442778,1.088611
+72,Montreuil-Bellay,27,Mar,1149,3,27-3-1149,"Appears as ""Montreuil-Bellay (siege begun)"" in text",47.1322,-0.1522
+73,Angers,9,Sept,1150,9,9-9-1150,,47.473612,-0.554167
+74,Montreuil-Bellay,28,Oct,1150,10,28-10-1150,"Appears as ""Montreuil-Bellay (siege continued)"" in text",47.1322,-0.1522
+75,Montreuil-Bellay,,,1151,12,1151,"Appears as ""Montreuil-Bellay (siege concluded)"" in text",47.1322,-0.1522
+76,Angers,11,June,1151,6,11-6-1151,,47.473612,-0.554167
+77,Brissac,11,June,1151,6,11-6-1151,,47.3558,-0.447
+78,Paris,,Aug,1151,8,8-1151,"Appears as ""End of Aug. Paris (with Louis VII)"" in text",48.856613,2.352222
+79,Chateau-du-Loir,7,Sept,1151,9,7-9-1151,"Appears as ""Chateau-du-Loir (death)"" in text",47.6983,0.4183

@@ -1,0 +1,95 @@
+id,location,time,notes,osGrid,latitude,longitude,nation
+1,Le Bec-Hellouin,29-5-1147,,,49.2325,0.7217,France
+2,Rouen,11-10-1147,,,49.442778,1.088611,France
+3,Devizes,13-4-1149,,SU0051461547,51.353,-1.994,England
+4,Carlisle,22-5-1149,,NY3954755548,54.891,-2.944,England
+5,Lancaster,1149,,SD4765161523,54.047,-2.801,England
+6,Hereford,1149,,SO5100440033,52.0565,-2.716,England
+7,Dursley,1149,,ST7560198097,51.6811,-2.3543,England
+8,Bristol,1149,,ST5956172497,51.45,-2.583333,England
+9,Devizes,9-1149,,SU0051461547,51.353,-1.994,England
+10,Devon,1149,,SX7890692188,50.716667,-3.716667,England
+11,Bridport,1149,,SY4657492939,50.7336,-2.7584,England
+12,Devizes,1149,,SU0051461547,51.353,-1.994,England
+13,? Rouen,1150,(Duke of Normandy),,49.442778,1.088611,France
+14,? Rouen,1150,,,49.442778,1.088611,France
+15,? Le Bec-Hellouin,1150,,,49.2325,0.7217,France
+16,? Caen,1150,,,49.18,-0.37,France
+17,? Falaise,1150,,,48.897222,-0.1975,France
+18,? Mortain,1151,,,48.6486,-0.9397,France
+19,Torigni-sur-Vire,1151,,,49.0361,-0.9783,France
+20,Arques,1151,,,49.8817,1.1269,France
+21,In the Vexin,1151,,,49.151726,1.787148,France
+22,Paris,8-1151,,,48.856613,2.352222,France
+23,Lisieux,1151,,,49.15,0.23,France
+24,Chateau-du-Loir,7-9-1151,(death of Count Geoffrey),,47.6983,0.4183,France
+25,Le Mans,1151,(funeral of Count Geoffrey),,48.0077,0.1984,France
+26,? Argentan,1151,,,48.75,-0.02,France
+27,? Rouen,1151,,,49.442778,1.088611,France
+28,Bayeux,11-1151,,,49.2794,-0.7028,France
+29,? Domfront,1151,,,48.5194,-0.7564,France
+30,Angers,9-11-1151,,,47.473612,-0.554167,France
+31,Baug�,1-1-1152,,,47.542,-0.103,France
+32,? Angers,1152,,,47.473612,-0.554167,France
+33,? Amboise,1152,,,47.4042,0.98,France
+34,Lisieux,6-4-1152,,,49.15,0.23,France
+35,? Rouen,1152,,,49.442778,1.088611,France
+36,? Tours,1152,,,47.2436,0.6892,France
+37,Poitiers,18-5-1152,(marriage to Eleanor of Aquitaine),,46.58,0.34,France
+38,? Chateau-du-Loir,1152,,,47.6983,0.4183,France
+39,? Falaise,1152,,,48.897222,-0.1975,France
+40,Barfleur,24/6-16/7-1152,,,49.6711,-1.2633,France
+41,Bacqueville,1152,,,49.3142,1.3706,France
+42,Guitry,1152,,,49.2169,1.5489,France
+43,�tr�pagny,1152,,,49.3067,1.6122,France
+44,La Fert�-Saint-Samson,1152,,,49.5789,1.5256,France
+45,Vernon,1152,,,49.09,1.49,France
+46,Pacy-sur-Eure,1152,,,49.0167,1.3828,France
+47,Br�zolles,1152,,,48.6911,1.0733,France
+48,Marcilly-sur-Eure,1152,,,48.8272,1.3475,France
+49,Bonsmoulins,1152,,,48.6511,0.5367,France
+50,Montsoreau (nr. Saumur),1152,,,47.2164,0.0569,France
+51,Barfleur,1152,,,49.6711,-1.2633,France
+52,? Wareham,13-1-1153,,SY9233387378,50.686,-2.1099,England
+53,? Devizes,1153,,SU0051461547,51.353,-1.994,England
+54,Malmesbury,1153,,ST9330787243,51.584,-2.098,England
+55,? Bristol,1153,,ST5956172497,51.45,-2.583333,England
+56,? Gloucester,19-4-1153,(Duke of Aquitaine),SO8320018600,51.865722,-2.2453868,England
+57,? Berkeley,1153,,ST6836999238,51.691,-2.459,England
+58,? Evesham,1153,,SP0372843741,52.092,-1.947,England
+59,? Dudley,1153,,SO9405690016,52.508,-2.089,England
+60,Leicester,7-6-1153,,SK5875204306,52.633333,-1.133333,England
+61,? Coventry,1153,,SP 33392 79007,52.408056,-1.510556,England
+62,Warwick,1153,,SP2806864730,52.28,-1.59,England
+63,Bedford,1153,,TL0481649626,52.135,-0.47,England
+64,Wallingford,1153,,TL5400038328,51.599,-1.125,England
+65,Siege of Crowmarsh,1153,,SU6160389280,51.599,-1.112,England
+66,Stamford,1153,,TF0282607016,52.651142,-0.48146188,England
+67,Nottingham,1153,,SK5700040000,52.954357,-1.1530111,England
+68,? Devizes,1153,,SU0051461547,51.353,-1.994,England
+69,? Wilton,1153,,SU0962331195,51.08,-1.864,England
+70,Winchester,6-11-1153,(with Stephen),SU4779329466,51.062549,-1.3193687,England
+71,London,1153,(with Stephen),TQ3248081340,51.515457,-0.092140265,England
+72,Westminster,1153,(with Stephen),TQ3016079670,51.500988,-0.12617168,England
+73,Oxford,13-1-1154,(with Stephen),SP5130006100,51.751253,-1.2582674,England
+74,? St. Albans,1154,,TL1480007300,51.752638,-0.33830962,England
+75,Dunstable,1154,(with Stephen),TL0188821864,51.88603,-0.52102,England
+76,Canterbury,2-1154,(with Stephen),TR1454057430,51.275608,1.0745524,England
+77,Dover,1154,(with Stephen),TR3161341898,51.1295,1.3089,England
+78,London,1154,,TQ3248081340,51.515457,-0.092140265,England
+79,Rochester,3-3-1154,,TQ7414268559,51.389355,0.50145239,England
+80,? Eu,1154,,,50.0481,1.4206,France
+81,? Perigueux,1154,,,45.1929,0.7217,France
+82,Fontevrault,21-5-1154,,,47.181389,0.051667,France
+83,Le Mans,1154,,,48.0077,0.1984,France
+84,? Caen,1154,,,49.18,-0.37,France
+85,? Lisieux,1154,,,49.15,0.23,France
+86,Rouen,24-6-1154,,,49.442778,1.088611,France
+87,Peace with Louis VII,1154,,,,,
+88,In the Vexin with Louis VII,1-10-1154,,,49.151726,1.787148,France
+89,? Lire in the forest of Conches,1154,,,,,
+90,Torigni ,25-10-1154,"(15 days' siege, during which news received of Stephen's death)",,49.0361,-0.9783,France
+91,Barfleur,1/11-7/12-1154,(waiting for favourable wind),,49.6711,-1.2633,France
+92,Hostreham,8-12-1154,,,49.28,-0.26,France
+93,Winchester,1154,,SU4779329466,51.062549,-1.3193687,England
+94,Westminster,19-12-1154,(coronation),TQ3016079670,51.500988,-0.12617168,England

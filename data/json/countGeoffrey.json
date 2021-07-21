@@ -1,0 +1,1513 @@
+{
+    "type": "FeatureCollection",
+    "features": [{
+            "type": "Feature",
+            "properties": {
+                "id": 1,
+                "location": "Carrouges",
+                "date": 21,
+                "month": "Sept",
+                "year": 1136,
+                "month(no)": 9,
+                "time": "21-9-1136",
+                "comments": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.1444,
+                    48.5683
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 2,
+                "location": "Ecouché",
+                "date": 21,
+                "month": "Sept",
+                "year": 1136,
+                "month(no)": 9,
+                "time": "21-9-1136",
+                "comments": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.1236,
+                    48.718
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 3,
+                "location": "Saint-Georges d'Asnebec",
+                "date": 21,
+                "month": "Sept",
+                "year": 1136,
+                "month(no)": 9,
+                "time": "21-9-1136",
+                "comments": "(Saint-Georges-d'Annebecq)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.2639,
+                    48.6339
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 4,
+                "location": "Montreuil-au-Houlme",
+                "date": 21,
+                "month": "Sept",
+                "year": 1136,
+                "month(no)": 9,
+                "time": "21-9-1136",
+                "comments": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.2619,
+                    48.6872
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 5,
+                "location": "Moutiers-Hubert",
+                "date": 21,
+                "month": "Sept",
+                "year": 1136,
+                "month(no)": 9,
+                "time": "21-9-1136",
+                "comments": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.2675,
+                    48.9775
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 6,
+                "location": "Le Sap",
+                "date": 1,
+                "month": "Oct",
+                "year": 1136,
+                "month(no)": 10,
+                "time": "1-10-1136",
+                "comments": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.3394,
+                    48.895
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 7,
+                "location": "Sées",
+                "date": 4,
+                "month": "Oct",
+                "year": 1136,
+                "month(no)": 10,
+                "time": "4-10-1136",
+                "comments": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.1719,
+                    48.6053
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 8,
+                "location": "Basoches",
+                "date": "",
+                "month": "",
+                "year": 1137,
+                "month(no)": "",
+                "time": 1137,
+                "comments": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.5503,
+                    49.1711
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 9,
+                "location": "Argences",
+                "date": "",
+                "month": "",
+                "year": 1137,
+                "month(no)": "",
+                "time": 1137,
+                "comments": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.1664,
+                    49.1269
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 10,
+                "location": "Gué Béranger",
+                "date": "",
+                "month": "",
+                "year": 1137,
+                "month(no)": "",
+                "time": 1137,
+                "comments": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.1972,
+                    49.1222
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 11,
+                "location": "Anjou",
+                "date": "",
+                "month": "",
+                "year": 1137,
+                "month(no)": "",
+                "time": 1137,
+                "comments": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.554167,
+                    47.473612
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 12,
+                "location": "Falaise",
+                "date": 1,
+                "month": "Oct",
+                "year": 1138,
+                "month(no)": 10,
+                "time": "1-10-1138",
+                "comments": "Appears as \"Falaise (unsuccessful siege)\" in text"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.1975,
+                    48.897222
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 13,
+                "location": "Falaise",
+                "date": 2,
+                "month": "Oct",
+                "year": 1138,
+                "month(no)": 10,
+                "time": "2-10-1138",
+                "comments": "Appears as \"Falaise (unsuccessful siege)\" in text"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.1975,
+                    48.897222
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 14,
+                "location": "Falaise",
+                "date": 3,
+                "month": "Oct",
+                "year": 1138,
+                "month(no)": 10,
+                "time": "3-10-1138",
+                "comments": "Appears as \"Falaise (unsuccessful siege)\" in text"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.1975,
+                    48.897222
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 15,
+                "location": "Falaise",
+                "date": 4,
+                "month": "Oct",
+                "year": 1138,
+                "month(no)": 10,
+                "time": "4-10-1138",
+                "comments": "Appears as \"Falaise (unsuccessful siege)\" in text"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.1975,
+                    48.897222
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 16,
+                "location": "Falaise",
+                "date": 5,
+                "month": "Oct",
+                "year": 1138,
+                "month(no)": 10,
+                "time": "5-10-1138",
+                "comments": "Appears as \"Falaise (unsuccessful siege)\" in text"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.1975,
+                    48.897222
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 17,
+                "location": "Falaise",
+                "date": 6,
+                "month": "Oct",
+                "year": 1138,
+                "month(no)": 10,
+                "time": "6-10-1138",
+                "comments": "Appears as \"Falaise (unsuccessful siege)\" in text"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.1975,
+                    48.897222
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 18,
+                "location": "Falaise",
+                "date": 7,
+                "month": "Oct",
+                "year": 1138,
+                "month(no)": 10,
+                "time": "7-10-1138",
+                "comments": "Appears as \"Falaise (unsuccessful siege)\" in text"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.1975,
+                    48.897222
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 19,
+                "location": "Falaise",
+                "date": 8,
+                "month": "Oct",
+                "year": 1138,
+                "month(no)": 10,
+                "time": "8-10-1138",
+                "comments": "Appears as \"Falaise (unsuccessful siege)\" in text"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.1975,
+                    48.897222
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 20,
+                "location": "Falaise",
+                "date": 9,
+                "month": "Oct",
+                "year": 1138,
+                "month(no)": 10,
+                "time": "9-10-1138",
+                "comments": "Appears as \"Falaise (unsuccessful siege)\" in text"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.1975,
+                    48.897222
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 21,
+                "location": "Falaise",
+                "date": 10,
+                "month": "Oct",
+                "year": 1138,
+                "month(no)": 10,
+                "time": "10-10-1138",
+                "comments": "Appears as \"Falaise (unsuccessful siege)\" in text"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.1975,
+                    48.897222
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 22,
+                "location": "Falaise",
+                "date": 11,
+                "month": "Oct",
+                "year": 1138,
+                "month(no)": 10,
+                "time": "11-10-1138",
+                "comments": "Appears as \"Falaise (unsuccessful siege)\" in text"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.1975,
+                    48.897222
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 23,
+                "location": "Falaise",
+                "date": 12,
+                "month": "Oct",
+                "year": 1138,
+                "month(no)": 10,
+                "time": "12-10-1138",
+                "comments": "Appears as \"Falaise (unsuccessful siege)\" in text"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.1975,
+                    48.897222
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 24,
+                "location": "Falaise",
+                "date": 13,
+                "month": "Oct",
+                "year": 1138,
+                "month(no)": 10,
+                "time": "13-10-1138",
+                "comments": "Appears as \"Falaise (unsuccessful siege)\" in text"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.1975,
+                    48.897222
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 25,
+                "location": "Falaise",
+                "date": 14,
+                "month": "Oct",
+                "year": 1138,
+                "month(no)": 10,
+                "time": "14-10-1138",
+                "comments": "Appears as \"Falaise (unsuccessful siege)\" in text"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.1975,
+                    48.897222
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 26,
+                "location": "Falaise",
+                "date": 15,
+                "month": "Oct",
+                "year": 1138,
+                "month(no)": 10,
+                "time": "15-10-1138",
+                "comments": "Appears as \"Falaise (unsuccessful siege)\" in text"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.1975,
+                    48.897222
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 27,
+                "location": "Falaise",
+                "date": 16,
+                "month": "Oct",
+                "year": 1138,
+                "month(no)": 10,
+                "time": "16-10-1138",
+                "comments": "Appears as \"Falaise (unsuccessful siege)\" in text"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.1975,
+                    48.897222
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 28,
+                "location": "Falaise",
+                "date": 17,
+                "month": "Oct",
+                "year": 1138,
+                "month(no)": 10,
+                "time": "17-10-1138",
+                "comments": "Appears as \"Falaise (unsuccessful siege)\" in text"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.1975,
+                    48.897222
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 29,
+                "location": "Falaise",
+                "date": 18,
+                "month": "Oct",
+                "year": 1138,
+                "month(no)": 10,
+                "time": "18-10-1138",
+                "comments": "Appears as \"Falaise (unsuccessful siege)\" in text"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.1975,
+                    48.897222
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 30,
+                "location": "Touques",
+                "date": "",
+                "month": "Nov",
+                "year": 1139,
+                "month(no)": 11,
+                "time": "11-1139",
+                "comments": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.1028,
+                    49.3433
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 31,
+                "location": "Lisieux",
+                "date": 5,
+                "month": "Apr",
+                "year": 1141,
+                "month(no)": 4,
+                "time": "5-4-1141",
+                "comments": "Appears as \"c.5 Apr\" in text"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.23,
+                    49.15
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 32,
+                "location": "Falaise",
+                "date": 5,
+                "month": "Apr",
+                "year": 1141,
+                "month(no)": 4,
+                "time": "5-4-1141",
+                "comments": "Appears as \"c.5 Apr\" in text"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.1975,
+                    48.897222
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 33,
+                "location": "Aulnay",
+                "date": "",
+                "month": "",
+                "year": 1142,
+                "month(no)": "",
+                "time": 1142,
+                "comments": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.6308,
+                    49.0211
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 34,
+                "location": "Mortain",
+                "date": "",
+                "month": "",
+                "year": 1142,
+                "month(no)": "",
+                "time": 1142,
+                "comments": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.9397,
+                    48.6486
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 35,
+                "location": "Tinchebray",
+                "date": "",
+                "month": "",
+                "year": 1142,
+                "month(no)": "",
+                "time": 1142,
+                "comments": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.7331,
+                    48.7636
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 36,
+                "location": "Cérences",
+                "date": "",
+                "month": "",
+                "year": 1142,
+                "month(no)": "",
+                "time": 1142,
+                "comments": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-1.4342,
+                    48.9169
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 37,
+                "location": "Le Teilleul",
+                "date": "",
+                "month": "",
+                "year": 1142,
+                "month(no)": "",
+                "time": 1142,
+                "comments": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.8735,
+                    48.5393
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 38,
+                "location": "St.-Hilaire-du-Harcouët",
+                "date": "",
+                "month": "",
+                "year": 1142,
+                "month(no)": "",
+                "time": 1142,
+                "comments": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-1.0904,
+                    48.5212
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 39,
+                "location": "Briquesard",
+                "date": "",
+                "month": "",
+                "year": 1142,
+                "month(no)": "",
+                "time": 1142,
+                "comments": "Appears as \"Briquesard (in Livry)\" in text"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.7644,
+                    49.1089
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 41,
+                "location": "Trévières",
+                "date": "",
+                "month": "",
+                "year": 1142,
+                "month(no)": "",
+                "time": 1142,
+                "comments": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.903,
+                    49.3092
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 42,
+                "location": "Vire",
+                "date": "",
+                "month": "",
+                "year": 1142,
+                "month(no)": "",
+                "time": 1142,
+                "comments": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.89,
+                    48.84
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 43,
+                "location": "Villers-Bocage",
+                "date": "",
+                "month": "",
+                "year": 1142,
+                "month(no)": "",
+                "time": 1142,
+                "comments": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.66,
+                    49.08
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 44,
+                "location": "Pontorson",
+                "date": "",
+                "month": "",
+                "year": 1142,
+                "month(no)": "",
+                "time": 1142,
+                "comments": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-1.5068,
+                    48.5534
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 45,
+                "location": "Avranches",
+                "date": "",
+                "month": "",
+                "year": 1142,
+                "month(no)": "",
+                "time": 1142,
+                "comments": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-1.3556,
+                    48.685
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 46,
+                "location": "Saint-Lo",
+                "date": "",
+                "month": "",
+                "year": 1142,
+                "month(no)": "",
+                "time": 1142,
+                "comments": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-1.09,
+                    49.12
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 47,
+                "location": "Coutances",
+                "date": "",
+                "month": "",
+                "year": 1142,
+                "month(no)": "",
+                "time": 1142,
+                "comments": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-1.44,
+                    49.05
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 48,
+                "location": "Cherbourg",
+                "date": "",
+                "month": "",
+                "year": 1142,
+                "month(no)": "",
+                "time": 1142,
+                "comments": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-1.62,
+                    49.63
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 49,
+                "location": "Verneuil",
+                "date": "",
+                "month": "",
+                "year": 1143,
+                "month(no)": "",
+                "time": "",
+                "comments": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.9286,
+                    48.7394
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 50,
+                "location": "Le Vaudreuil",
+                "date": "",
+                "month": "",
+                "year": 1143,
+                "month(no)": "",
+                "time": "",
+                "comments": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.2067,
+                    49.2569
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 51,
+                "location": "Vernon",
+                "date": 14,
+                "month": "jan",
+                "year": 1144,
+                "month(no)": 1,
+                "time": "14-1-1144",
+                "comments": "Appears as \"c. 14 Jan\" in text"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.49,
+                    49.09
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 52,
+                "location": "Rouen",
+                "date": 20,
+                "month": "jan",
+                "year": 1144,
+                "month(no)": 1,
+                "time": "20-1-1144",
+                "comments": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.088611,
+                    49.442778
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 53,
+                "location": "Rouen",
+                "date": 23,
+                "month": "Apr",
+                "year": 1144,
+                "month(no)": 4,
+                "time": "23-4-1144",
+                "comments": "Appears as \"Rouen(Duke of Normandy)\""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.088611,
+                    49.442778
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 54,
+                "location": "Neufchâtel-en-Bray",
+                "date": 23,
+                "month": "Apr",
+                "year": 1144,
+                "month(no)": 4,
+                "time": "23-4-1144",
+                "comments": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.44,
+                    49.73
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 55,
+                "location": "Lyons-la-Foret",
+                "date": 23,
+                "month": "Apr",
+                "year": 1144,
+                "month(no)": 4,
+                "time": "23-4-1144",
+                "comments": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.4769,
+                    49.4003
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 56,
+                "location": "Arques",
+                "date": "",
+                "month": "Summer",
+                "year": 1145,
+                "month(no)": "",
+                "time": "Summer-1145",
+                "comments": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3033,
+                    50.7361
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 57,
+                "location": "Rouen",
+                "date": "",
+                "month": "Summer",
+                "year": 1145,
+                "month(no)": "",
+                "time": "Summer-1145",
+                "comments": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.088611,
+                    49.442778
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 58,
+                "location": "Angers",
+                "date": "",
+                "month": "Summer",
+                "year": 1145,
+                "month(no)": "",
+                "time": "Summer-1145",
+                "comments": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.554167,
+                    47.473612
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 59,
+                "location": "Baugé",
+                "date": 8,
+                "month": "Apr",
+                "year": 1146,
+                "month(no)": 4,
+                "time": "8-4-1146",
+                "comments": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.1984,
+                    48.0077
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 60,
+                "location": "Le Mans",
+                "date": 8,
+                "month": "Apr",
+                "year": 1146,
+                "month(no)": 4,
+                "time": "8-4-1146",
+                "comments": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.1984,
+                    48.0077
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 61,
+                "location": "Courcy-sur-Dives",
+                "date": 8,
+                "month": "Apr",
+                "year": 1146,
+                "month(no)": 4,
+                "time": "8-4-1146",
+                "comments": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.0419,
+                    48.9722
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 62,
+                "location": "Rouen",
+                "date": 8,
+                "month": "Apr",
+                "year": 1146,
+                "month(no)": 4,
+                "time": "8-4-1146",
+                "comments": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.088611,
+                    49.442778
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 63,
+                "location": "Vendôme",
+                "date": 23,
+                "month": "Feb",
+                "year": 1147,
+                "month(no)": 2,
+                "time": "23-2-1147",
+                "comments": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.0664,
+                    47.7936
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 64,
+                "location": "Saumur",
+                "date": 23,
+                "month": "Feb",
+                "year": 1147,
+                "month(no)": 2,
+                "time": "23-2-1147",
+                "comments": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.0769,
+                    47.26
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 65,
+                "location": "Mirebeau",
+                "date": 20,
+                "month": "Apr",
+                "year": 1147,
+                "month(no)": 4,
+                "time": "20-4-1147",
+                "comments": "Appears as \"After 20 Apr\" in text"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.1825,
+                    46.7858
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 66,
+                "location": "Argentan",
+                "date": 20,
+                "month": "Apr",
+                "year": 1147,
+                "month(no)": 4,
+                "time": "20-4-1147",
+                "comments": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.02,
+                    48.75
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 67,
+                "location": "Rouen",
+                "date": 11,
+                "month": "Oct",
+                "year": 1147,
+                "month(no)": 10,
+                "time": "11-10-1147",
+                "comments": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.088611,
+                    49.442778
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 68,
+                "location": "Fauguernon",
+                "date": "",
+                "month": "",
+                "year": 1148,
+                "month(no)": "",
+                "time": 1148,
+                "comments": "Appears as \"Fauguernon, nr. Lisieux\" in text"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.2717,
+                    49.1925
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 69,
+                "location": "Le Mans",
+                "date": 12,
+                "month": "Jan",
+                "year": 1149,
+                "month(no)": 1,
+                "time": "12-1-1149",
+                "comments": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.1984,
+                    48.0077
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 70,
+                "location": "Le Bec-Hellouin",
+                "date": 27,
+                "month": "Mar",
+                "year": 1149,
+                "month(no)": 3,
+                "time": "27-3-1149",
+                "comments": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.7217,
+                    49.2325
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 71,
+                "location": "Rouen",
+                "date": 27,
+                "month": "Mar",
+                "year": 1149,
+                "month(no)": 3,
+                "time": "27-3-1149",
+                "comments": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.088611,
+                    49.442778
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 72,
+                "location": "Montreuil-Bellay",
+                "date": 27,
+                "month": "Mar",
+                "year": 1149,
+                "month(no)": 3,
+                "time": "27-3-1149",
+                "comments": "Appears as \"Montreuil-Bellay (siege begun)\" in text"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.1522,
+                    47.1322
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 73,
+                "location": "Angers",
+                "date": 9,
+                "month": "Sept",
+                "year": 1150,
+                "month(no)": 9,
+                "time": "9-9-1150",
+                "comments": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.554167,
+                    47.473612
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 74,
+                "location": "Montreuil-Bellay",
+                "date": 28,
+                "month": "Oct",
+                "year": 1150,
+                "month(no)": 10,
+                "time": "28-10-1150",
+                "comments": "Appears as \"Montreuil-Bellay (siege continued)\" in text"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.1522,
+                    47.1322
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 75,
+                "location": "Montreuil-Bellay",
+                "date": "",
+                "month": "",
+                "year": 1151,
+                "month(no)": 12,
+                "time": 1151,
+                "comments": "Appears as \"Montreuil-Bellay (siege concluded)\" in text"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.1522,
+                    47.1322
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 76,
+                "location": "Angers",
+                "date": 11,
+                "month": "June",
+                "year": 1151,
+                "month(no)": 6,
+                "time": "11-6-1151",
+                "comments": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.554167,
+                    47.473612
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 77,
+                "location": "Brissac",
+                "date": 11,
+                "month": "June",
+                "year": 1151,
+                "month(no)": 6,
+                "time": "11-6-1151",
+                "comments": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.447,
+                    47.3558
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 78,
+                "location": "Paris",
+                "date": "",
+                "month": "Aug",
+                "year": 1151,
+                "month(no)": 8,
+                "time": "8-1151",
+                "comments": "Appears as \"End of Aug. Paris (with Louis VII)\" in text"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.352222,
+                    48.856613
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 79,
+                "location": "Chateau-du-Loir",
+                "date": 7,
+                "month": "Sept",
+                "year": 1151,
+                "month(no)": 9,
+                "time": "7-9-1151",
+                "comments": "Appears as \"Chateau-du-Loir (death)\" in text"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.4183,
+                    47.6983
+                ]
+            }
+        }
+    ]
+}
