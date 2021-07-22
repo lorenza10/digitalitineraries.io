@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    padding: 0;
     font-family: Arial
 }
 
@@ -107,11 +108,6 @@ body {
         width: 100%;
         text-align: left;
     }
-}
-
-body {
-    margin: 0;
-    padding: 0;
 }
 
 #mapid {
