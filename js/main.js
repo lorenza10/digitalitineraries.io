@@ -1,6 +1,14 @@
-// function getData(url) {
 $(document).ready(function() {
+    getData('countGeoffrey.json')
+});
+var clearData;
 
+function loadData() {
+    clearData;
+    getData('edward2.json')
+};
+
+function getData(url) {
 
     $('#mapid').height(window.innerHeight);
     var map = L.map('mapid', {
@@ -41,7 +49,7 @@ $(document).ready(function() {
                         max = geoJsonPoint.properties.id;
                     }
                     var html = '';
-                    var arrayOfProps = ['title', 'id', 'place', 'time'];
+                    var arrayOfProps = ['location', 'id', 'time', 'comments'];
                     arrayOfProps.forEach(function(prop) {
                         html += '<strong>' + prop + '</strong>' + ': ' + geoJsonPoint.properties[prop] + '<br/>'
                     })
@@ -61,7 +69,7 @@ $(document).ready(function() {
                     if (layer.feature.properties.id == parseFloat(e[0])) {
                         $('#displayLocation').html(layer.feature.properties.location);
                         $('#displayDate').html(layer.feature.properties.time);
-                        $('#displayInformation').html(layer.feature.properties.comments);
+                        // $('#displayInformation').html(layer.feature.properties.comments);
                         layer.addTo(map);
                     } else {
                         map.removeLayer(layer);
@@ -70,4 +78,12 @@ $(document).ready(function() {
             });
         })
         .catch(error => console.log(error.message));
-});
+
+    function removeData() {
+        map.remove();
+    };
+    clearData = removeData;
+    // circle.on('mouseover', function() {
+    //     circle.setStyle({ color: 'red' });
+    // })
+};
