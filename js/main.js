@@ -94,6 +94,8 @@ function getData(url) {
     function destroySlider() {
         $('.sliderContainer').attr('class', 'sliderContainer');
         $('.noUi-base').remove();
+        $('#displayLocation').text('Location');
+        $('#displayDate').text('Date');
         delete slider.noUiSlider;
         slider = document.getElementById('slider');
     }
