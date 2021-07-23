@@ -1,15 +1,22 @@
-$(document).ready(function() {
-    getData('countGeoffrey.json')
-});
-var clearData;
+// $(document).ready(function() {
+//     getData('countGeoffrey.json')
+// });
+// var clearData;
 
 function loadData() {
     clearData;
     getData('edward2.json')
 };
 
-function getData(url) {
+var map;
 
+function getData(url) {
+    if (map != undefined) {
+        map.remove();
+    }
+    console.log('success')
+    var container = L.DomUtil.get('mapid');
+    if (container != null) { container._leaflet_id = null; }
     $('#mapid').height(window.innerHeight);
     var map = L.map('mapid', {
             zoomControl: false
@@ -21,15 +28,20 @@ function getData(url) {
         id: 'mapbox/streets-v11',
         accessToken: 'accessToken'
     }).addTo(map);
+    // });
 
+    // function getData(url) {
+    console.log('success1')
     var monarchGeoJSON = false;
-    url = 'data/json/countGeoffrey.json'
+    var newMonarch = document.getElementById('monarch').value;
+    url = 'data/json/' + newMonarch + '.json'
     fetch(url, {
             method: 'GET'
         })
         .then(res => res.json())
         .then(json => {
             console.log(json)
+            console.log('success2')
             var min = 0;
             var max = 0;
             monarchGeoJSON = L.geoJSON(json, {
@@ -48,14 +60,20 @@ function getData(url) {
                     if (geoJsonPoint.properties.id > max) {
                         max = geoJsonPoint.properties.id;
                     }
+                    console.log('success2')
+
                     var html = '';
                     var arrayOfProps = ['location', 'id', 'time', 'comments'];
                     arrayOfProps.forEach(function(prop) {
                         html += '<strong>' + prop + '</strong>' + ': ' + geoJsonPoint.properties[prop] + '<br/>'
                     })
+                    console.log('success3')
                     return L.circle(latlng, 5000).bindPopup(html);
+
+
                 },
             }).addTo(map);
+            console.log('success3')
             var slider = document.getElementById('slider');
             noUiSlider.create(slider, {
                 start: [min],
