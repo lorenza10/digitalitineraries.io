@@ -3,7 +3,9 @@ function getData(url) {
         map.remove();
     }
     var container = L.DomUtil.get('mapid');
-    if (container != null) { container._leaflet_id = null; }
+    if (container != null) {
+        container._leaflet_id = null;
+    }
     $('#mapid').height(window.innerHeight);
     var map = L.map('mapid', {
             zoomControl: false
@@ -54,8 +56,15 @@ function getData(url) {
             callSlider();
 
             function callSlider() {
+                destroySlider();
 
                 var slider = document.getElementById('slider');
+
+                // if (slider != null) {
+                //     slider.noUiSlider.destroy()
+                //     var slider = document.getElementById('slider');
+
+                // }
                 // if (slider != null) {
                 //     slider.noUiSlider.destroy()
                 // }
@@ -66,7 +75,7 @@ function getData(url) {
                     range: {
                         'min': min,
                         'max': max
-                    }
+                    },
                 }).on('slide', function(e) {
                     monarchGeoJSON.eachLayer(function(layer) {
                         if (layer.feature.properties.id == parseFloat(e[0])) {
@@ -82,7 +91,10 @@ function getData(url) {
         })
         .catch(error => console.log(error.message));
 
-    // circle.on('mouseover', function() {
-    //     circle.setStyle({ color: 'red' });
-    // })
+    function destroySlider() {
+        $('.sliderContainer').attr('class', 'sliderContainer');
+        $('.noUi-base').remove();
+        delete slider.noUiSlider;
+        slider = document.getElementById('slider');
+    }
 };
