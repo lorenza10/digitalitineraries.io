@@ -1,3 +1,13 @@
+function navBar() {
+    console.log('success')
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+
 function getData(url) {
     if (map != undefined) {
         map.remove();

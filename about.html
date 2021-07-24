@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <title>About</title>
+</head>
+
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <a href="#about">About</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="navBar()">&#9776;</a>
+    </div>
+
+    <div id="container">
+        <p>This is the code that was used to scan the documents</p>
+        <p>From <a href="https://nanonets.com/blog/ocr-with-tesseract/">https://nanonets.com/blog/ocr-with-tesseract/</a></p>
+        <code>
+
+
+            <div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #888888"># For Windows users</span>
+                <span style="color: #008800; font-weight: bold">import</span> <span style="color: #0e84b5; font-weight: bold">pytesseract</span>
+                <span style="color: #008800; font-weight: bold">import</span> <span style="color: #0e84b5; font-weight: bold">subprocess</span>
+                
+                pytesseract<span style="color: #333333">.</span>pytesseract<span style="color: #333333">.</span>tesseract_cmd <span style="color: #333333">=</span> <span style="background-color: #fff0f0">r'pathTo\Tesseract-OCR\tesseract'</span>
+                
+                <span style="color: #888888"># Output in console</span>
+                <span style="color: #007020">print</span>(pytesseract<span style="color: #333333">.</span>image_to_string(<span style="background-color: #fff0f0">r'pathTo\henry1(1132-1135).JPG'</span>))
+                </pre></div>
+                
+                <div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #888888"># For Mac users</span>
+    <span style="color: #008800; font-weight: bold">import</span> <span style="color: #0e84b5; font-weight: bold">pytesseract</span>
+    <span style="color: #008800; font-weight: bold">import</span> <span style="color: #0e84b5; font-weight: bold">subprocess</span>
+    
+    <span style="color: #888888"># Output to console</span>
+    <span style="color: #007020">print</span>(pytesseract<span style="color: #333333">.</span>image_to_string(<span style="background-color: #fff0f0">r'pathTo\Henry1.png'</span>))
+</pre></div>
+     
+
+    <div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #888888"># Write to file</span>
+        newFileEscape <span style="color: #333333">=</span> newFile<span style="color: #333333">.</span>replace(<span style="background-color: #fff0f0">"’"</span>, <span style="background-color: #fff0f0">"'"</span>)
+        splitLines <span style="color: #333333">=</span> newFileEscape<span style="color: #333333">.</span>splitlines()
+        
+        file <span style="color: #333333">=</span> <span style="color: #007020">open</span>(<span style="background-color: #fff0f0">"image1.txt"</span>, <span style="background-color: #fff0f0">"w"</span>)
+        str_dictionary <span style="color: #333333">=</span> <span style="color: #007020">repr</span>(newFileEscape)
+        file<span style="color: #333333">.</span>write(str_dictionary)
+        file<span style="color: #333333">.</span>close()
+        </pre></div>
+        </code>
+    </div>
+</body>
+
+</html>
