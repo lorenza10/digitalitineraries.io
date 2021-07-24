@@ -2,3 +2,11 @@ Edward IV - issues with dates after record 63
     Issue was in google docs, have now updated, next step is to recreate the geojson file
 
 Comments that are empty are appearing as undefined, fill in as null or N/A should solve the issue
+
+Change time to date and date to day in the columns to reduce confusion
+
+Add tab to section and other accessibilty functions, ie colourblind tests
+
+Add an 'how it was made' page, shows snippits of code and explains for others to use it
+
+French characters are not appearing in the location data

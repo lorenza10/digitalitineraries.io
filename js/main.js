@@ -87,7 +87,37 @@ function getData(url) {
                         }
                     });
                 });
+
+                var increment = 1;
+                var slideMax = max;
+                var animationDelay = 50;
+                var sliderVal = 0;
+                var sliderInterval = {};
+
+                $("#slider").on("slidechange", function(event, ui) {
+                    //If the slider value reaches the max, set the interval to -1 to start animating backwards.
+                    if ($("#slider").slider("value") == slideMax) {
+                        increment = -1;
+                    } else if ($("#slider").slider("value") == 0) {
+                        increment = 1;
+                    }
+                });
+                $(".btn-run").on("click", function() {
+                    //Set the slider value to the current value to start the animation at the correct point.
+                    sliderVal = $("#slider").slider("value");
+                    sliderInterval = setInterval(function() {
+                        sliderVal += increment;
+                        $("#slider").slider("value", sliderVal);
+                    }, animationDelay);
+                });
+
+                $(".btn-stop").on("click", function() {
+                    //Call clearInterval to stop the animation.
+                    clearInterval(sliderInterval);
+                });
             }
+
+
         })
         .catch(error => console.log(error.message));
 

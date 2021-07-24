@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
     <link href="css/nouislider.css" rel="stylesheet">
     <script src="js/nouislider.js"></script>
     <script src="js/main.js"></script>
@@ -75,6 +76,11 @@
             <option id="dukeHenry" value="dukeHenry">Duke Henry of Anjou</option>
             <option id="edward2" value="edward2">Edward II of England</option>
             <option id="edward4" value="edward4">Edward IV of England</option>
+            <option id="empressMatilda" value="empressMatilda">Empress Matilda</option>
+            <option id="henryFirst" value="henryFirst">Henry I of England</option>
+            <option id="richard3" value="richard3">Richard III of England</option>
+            <option id="stephen" value="stephen">Stephen of England</option>
+            <option id="williamTheConqueror" value="williamTheConqueror">William I of England</option>
         </select>
         <h3>Location</h3>
         <div type="text" id="displayLocation">Location</div>
@@ -83,6 +89,9 @@
         <!-- <h3>Notes</h3>
         <div type="Information" id="displayInformation">Information</div> -->
         <div id="slider" class="sliderContainer"></div>
+        <br/>
+        <button class="btn btn-run">Run</button>
+        <button class="btn btn-stop">Stop</button>
     </div>
     <div id="mapid"></div>
 </body>
