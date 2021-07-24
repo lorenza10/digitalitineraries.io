@@ -1,0 +1,4 @@
+Edward IV - issues with dates after record 63
+    Issue was in google docs, have now updated, next step is to recreate the geojson file
+
+Comments that are empty are appearing as undefined, fill in as null or N/A should solve the issue
