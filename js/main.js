@@ -119,6 +119,10 @@ function getData(url) {
                 sliderFormat.noUiSlider.set(this.value);
                 console.log('success')
             });
+
+            $('slider').on('change', function() {
+                alert(this.value);
+            });
         })
         .catch(error => console.log(error.message));
 
