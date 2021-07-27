@@ -114,20 +114,35 @@ function getData(url) {
                     displayData(values);
                 });
 
+                $('#restart').on('click', function() {
+                    slider.noUiSlider.reset()
+                    var values = slider.noUiSlider.get();
+                    displayData(values);
+                });
+
                 $('#next').on('click', function() {
                     var values = slider.noUiSlider.get();
-                    values++;
-                    slider.noUiSlider.set(values);
-                    displayData(values);
+                    if (values < max) {
+                        values++;
+                        slider.noUiSlider.set(values);
+                        displayData(values);
+                    }
                 });
 
                 $('#prev').on('click', function() {
                     var values = slider.noUiSlider.get();
-                    values--;
-                    slider.noUiSlider.set(values);
-                    displayData(values);
+                    if (values > min) {
+                        values--;
+                        slider.noUiSlider.set(values);
+                        displayData(values);
+                    }
                 });
 
+                // $('#play').on('click', function() {
+                //     while (values < max) {
+                //         displayData(values);
+                //     }
+                // });
 
 
                 // $('#play').on('click', function() {
