@@ -138,59 +138,30 @@ function getData(url) {
                 });
 
                 // $('#play').on('click', function() {
-                //     while (values < max) {
-                //         displayData(values);
+                //     for (var values = slider.noUiSlider.get(); values <= max; values++) {
+                //         console.log(values);
+                //         setDelay(values);
                 //     }
                 // });
 
+                // function setDelay(values) {
+                //     setTimeout(function() {
+                //         console.log(values);
+                //     }, 20000);
+                // }
 
-                // $('#play').on('click', function() {
-                //     var values = slider.noUiSlider.get();
-                //     // slider.noUiSlider.set(50);
-                //     console.log(values);
-                //     setInterval(function() {
-                //         while (values < max) {
-                //             monarchGeoJSON.eachLayer(function(layer) {
-                //                 if (layer.feature.properties.id == max) {
-                //                     $('#displayLocation').html(layer.feature.properties.location);
-                //                     $('#displayDate').html(layer.feature.properties.time);
-                //                     layer.addTo(map);
-                //                 } else {
-                //                     map.removeLayer(layer);
-                //                 }
-                //             });
-                //             console.log(values)
-                //             values++;
-                //         }
-                //     }, 500);
-
-                // });
-
-
-                // var counter = min;
-
-                // $('#btn-run').on('click', function() {
-                //     console.log('success')
-                //     if (counter < max) { //if counter less than max value
-                //         counter += 1; //increment counter
-                //         $slider.slider("value", counter)
-                //     }
-                // });
-
-                // $(".btn-stop").on("click", function() {
-                //     //Call clearInterval to stop the animation.
-                //     clearInterval(sliderInterval);
-                // });
+                $('#play').on('click', function() {
+                    var values = slider.noUiSlider.get()
+                    for (var values = slider.noUiSlider.get(); values <= max; values++) {
+                        (function(values) {
+                            setTimeout(function() {
+                                slider.noUiSlider.set(values);
+                                displayData(values);
+                            }, 1000 * values);
+                        })(values);
+                    }
+                });
             }
-
-            slider.addEventListener('change', function() {
-                sliderFormat.noUiSlider.set(this.value);
-                console.log('success')
-            });
-
-            $('slider').on('change', function() {
-                alert(this.value);
-            });
         })
         .catch(error => console.log(error.message));
 
