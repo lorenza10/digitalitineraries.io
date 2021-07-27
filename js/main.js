@@ -8,6 +8,22 @@ function navBar() {
     }
 }
 
+// function sleep(ms) {
+//     return new Promise(resolve => setTimeout(resolve, ms));
+// }
+
+// async function end() {
+//     // Something to the effect of while x less than max, increment+1
+//     slider.noUiSlider.set(50);
+//     value = slider.noUiSlider.get();
+//     while (value < 79) {
+
+//         console.log(value)
+//         value++;
+//         await sleep(2000);
+//     }
+// }
+
 function getData(url) {
     if (map != undefined) {
         map.remove();
@@ -70,23 +86,18 @@ function getData(url) {
 
                 var slider = document.getElementById('slider');
 
-                // if (slider != null) {
-                //     slider.noUiSlider.destroy()
-                //     var slider = document.getElementById('slider');
-
-                // }
-                // if (slider != null) {
-                //     slider.noUiSlider.destroy()
-                // }
-
                 noUiSlider.create(slider, {
                     start: [min],
                     step: 1,
+                    animate: true,
+                    animationDuration: 5000,
                     range: {
                         'min': min,
                         'max': max
                     },
-                }).on('slide', function(e) {
+                })
+
+                slider.noUiSlider.on('slide', function(e) {
                     monarchGeoJSON.eachLayer(function(layer) {
                         if (layer.feature.properties.id == parseFloat(e[0])) {
                             $('#displayLocation').html(layer.feature.properties.location);
@@ -97,22 +108,56 @@ function getData(url) {
                         }
                     });
                 });
-                var counter = min;
 
+                var i = 1; //  set your counter to 1
 
+                function myLoop() {
+                    setTimeout(function() {
+                        console.log('hello');
+                        i++;
+                        if (i < 10) {
+                            myLoop();
+                        }
+                    }, 3000)
+                }
 
-                $('#btn-run').on('click', function() {
-                    console.log('success')
-                    if (counter < max) { //if counter less than max value
-                        counter += 1; //increment counter
-                        $slider.slider("value", counter)
-                    }
+                $('#play').on('click', function() {
+                    var values = slider.noUiSlider.get();
+                    // slider.noUiSlider.set(50);
+                    console.log(values);
+                    setInterval(function() {
+                        while (values < max) {
+                            monarchGeoJSON.eachLayer(function(layer) {
+                                if (layer.feature.properties.id == max) {
+                                    $('#displayLocation').html(layer.feature.properties.location);
+                                    $('#displayDate').html(layer.feature.properties.time);
+                                    layer.addTo(map);
+                                } else {
+                                    map.removeLayer(layer);
+                                }
+                            });
+                            console.log(values)
+                            values++;
+                        }
+                    }, 500);
+
                 });
 
-                $(".btn-stop").on("click", function() {
-                    //Call clearInterval to stop the animation.
-                    clearInterval(sliderInterval);
-                });
+
+                // var counter = min;
+
+                // $('#btn-run').on('click', function() {
+                //     console.log('success')
+                //     if (counter < max) { //if counter less than max value
+                //         counter += 1; //increment counter
+                //         $slider.slider("value", counter)
+                //     }
+                // });
+
+                // $(".btn-stop").on("click", function() {
+                //     //Call clearInterval to stop the animation.
+                //     clearInterval(sliderInterval);
+                // });
             }
 
             slider.addEventListener('change', function() {
