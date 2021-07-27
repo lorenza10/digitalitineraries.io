@@ -8,21 +8,10 @@ function navBar() {
     }
 }
 
-// function sleep(ms) {
-//     return new Promise(resolve => setTimeout(resolve, ms));
-// }
-
-// async function end() {
-//     // Something to the effect of while x less than max, increment+1
-//     slider.noUiSlider.set(50);
-//     value = slider.noUiSlider.get();
-//     while (value < 79) {
-
-//         console.log(value)
-//         value++;
-//         await sleep(2000);
-//     }
-// }
+function resetInformation() {
+    $('#displayLocation').text('Location');
+    $('#displayDate').text('Date');
+};
 
 function getData(url) {
     if (map != undefined) {
@@ -96,6 +85,16 @@ function getData(url) {
                         'max': max
                     },
                 })
+
+                $('#all').on('click', function() {
+                    {
+                        monarchGeoJSON.eachLayer(function(layer) {
+                            layer.addTo(map);
+                            slider.noUiSlider.reset()
+                            resetInformation();
+                        })
+                    }
+                });
 
                 function displayData(values) {
                     monarchGeoJSON.eachLayer(function(layer) {
@@ -198,9 +197,8 @@ function getData(url) {
     function destroySlider() {
         $('.sliderContainer').attr('class', 'sliderContainer');
         $('.noUi-base').remove();
-        $('#displayLocation').text('Location');
-        $('#displayDate').text('Date');
         delete slider.noUiSlider;
         slider = document.getElementById('slider');
+        resetInformation();
     }
 };
