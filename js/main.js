@@ -46,10 +46,10 @@ function getData(url) {
             monarchGeoJSON = L.geoJSON(json, {
                 style: function(feature) {
                     return {
-                        fillOpacity: 0.1,
-                        fillColor: '#000',
+                        fillOpacity: 1,
+                        fillColor: 'green',
                         color: '#000',
-                        opacity: 0.3
+                        opacity: 1
                     };
                 },
                 pointToLayer: function(geoJsonPoint, latlng) {
@@ -136,19 +136,6 @@ function getData(url) {
                         displayData(values);
                     }
                 });
-
-                // $('#play').on('click', function() {
-                //     for (var values = slider.noUiSlider.get(); values <= max; values++) {
-                //         console.log(values);
-                //         setDelay(values);
-                //     }
-                // });
-
-                // function setDelay(values) {
-                //     setTimeout(function() {
-                //         console.log(values);
-                //     }, 20000);
-                // }
 
                 $('#play').on('click', function() {
                     var values = slider.noUiSlider.get()

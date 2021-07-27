@@ -10,3 +10,9 @@ Add tab to section and other accessibilty functions, ie colourblind tests
 Add an 'how it was made' page, shows snippits of code and explains for others to use it
 
 French characters are not appearing in the location data
+
+Add google sheets data
+
+Clean up circles
+
+Make legend go to the bottom of the screen in mobile version
