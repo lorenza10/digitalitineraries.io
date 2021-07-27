@@ -89,7 +89,7 @@ function getData(url) {
                 noUiSlider.create(slider, {
                     start: [min],
                     step: 1,
-                    animate: true,
+                    animate: false,
                     animationDuration: 5000,
                     range: {
                         'min': min,
@@ -97,51 +97,60 @@ function getData(url) {
                     },
                 })
 
-                slider.noUiSlider.on('slide', function(e) {
+                function displayData(values) {
                     monarchGeoJSON.eachLayer(function(layer) {
-                        if (layer.feature.properties.id == parseFloat(e[0])) {
+                        if (layer.feature.properties.id == values) {
                             $('#displayLocation').html(layer.feature.properties.location);
                             $('#displayDate').html(layer.feature.properties.time);
                             layer.addTo(map);
                         } else {
                             map.removeLayer(layer);
                         }
-                    });
-                });
+                    })
+                };
 
-                var i = 1; //  set your counter to 1
-
-                function myLoop() {
-                    setTimeout(function() {
-                        console.log('hello');
-                        i++;
-                        if (i < 10) {
-                            myLoop();
-                        }
-                    }, 3000)
-                }
-
-                $('#play').on('click', function() {
+                slider.noUiSlider.on('slide', function() {
                     var values = slider.noUiSlider.get();
-                    // slider.noUiSlider.set(50);
-                    console.log(values);
-                    setInterval(function() {
-                        while (values < max) {
-                            monarchGeoJSON.eachLayer(function(layer) {
-                                if (layer.feature.properties.id == max) {
-                                    $('#displayLocation').html(layer.feature.properties.location);
-                                    $('#displayDate').html(layer.feature.properties.time);
-                                    layer.addTo(map);
-                                } else {
-                                    map.removeLayer(layer);
-                                }
-                            });
-                            console.log(values)
-                            values++;
-                        }
-                    }, 500);
-
+                    displayData(values);
                 });
+
+                $('#next').on('click', function() {
+                    var values = slider.noUiSlider.get();
+                    values++;
+                    slider.noUiSlider.set(values);
+                    displayData(values);
+                });
+
+                $('#prev').on('click', function() {
+                    var values = slider.noUiSlider.get();
+                    values--;
+                    slider.noUiSlider.set(values);
+                    displayData(values);
+                });
+
+
+
+                // $('#play').on('click', function() {
+                //     var values = slider.noUiSlider.get();
+                //     // slider.noUiSlider.set(50);
+                //     console.log(values);
+                //     setInterval(function() {
+                //         while (values < max) {
+                //             monarchGeoJSON.eachLayer(function(layer) {
+                //                 if (layer.feature.properties.id == max) {
+                //                     $('#displayLocation').html(layer.feature.properties.location);
+                //                     $('#displayDate').html(layer.feature.properties.time);
+                //                     layer.addTo(map);
+                //                 } else {
+                //                     map.removeLayer(layer);
+                //                 }
+                //             });
+                //             console.log(values)
+                //             values++;
+                //         }
+                //     }, 500);
+
+                // });
 
 
                 // var counter = min;
