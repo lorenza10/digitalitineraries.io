@@ -137,17 +137,31 @@ function getData(url) {
                     }
                 });
 
-                $('#play').on('click', function() {
-                    var values = slider.noUiSlider.get()
-                    for (var values = slider.noUiSlider.get(); values <= max; values++) {
-                        (function(values) {
-                            setTimeout(function() {
-                                slider.noUiSlider.set(values);
-                                displayData(values);
-                            }, 1000 * values);
-                        })(values);
-                    }
+                $('#pause').on('click', function(e) {
+                    e.preventDefault();
+                    isPaused = true;
+                    play();
                 });
+
+                $('#play').on('click', function(e) {
+                    e.preventDefault();
+                    isPaused = false;
+                    play();
+                });
+
+                function play() {
+                    if (!isPaused) {
+                        var values = slider.noUiSlider.get()
+                        for (var values = slider.noUiSlider.get(); values <= max; values++) {
+                            (function(values) {
+                                setTimeout(function() {
+                                    slider.noUiSlider.set(values);
+                                    displayData(values);
+                                }, 1000 * values);
+                            })(values);
+                        }
+                    }
+                }
             }
         })
         .catch(error => console.log(error.message));
