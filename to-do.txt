@@ -3,8 +3,6 @@ Edward IV - issues with dates after record 63
 
 Comments that are empty are appearing as undefined, fill in as null or N/A should solve the issue
 
-Change time to date and date to day in the columns to reduce confusion
-
 Add tab to section and other accessibilty functions, ie colourblind tests
 
 Add an 'how it was made' page, shows snippits of code and explains for others to use it
@@ -15,8 +13,5 @@ Add google sheets data
 
 Clean up circles
 
-Make legend go to the bottom of the screen in mobile version
 
 Issue when switching to any button after pressing play, need a reset or pause feature
-
-Change the overlay into a form for better styling

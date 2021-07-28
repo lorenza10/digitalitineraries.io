@@ -46,7 +46,7 @@ function getData(url) {
                 style: function(feature) {
                     return {
                         fillOpacity: 1,
-                        fillColor: 'green',
+                        fillColor: 'blue',
                         color: '#000',
                         opacity: 1
                     };

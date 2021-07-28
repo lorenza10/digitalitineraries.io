@@ -154,26 +154,31 @@ body {
     margin-bottom: 10px;
 }
 
-.page-footer {
+footer {
     /* position: fixed; */
-    left: 0;
-    bottom: 0;
     background-color: #333;
-    /* color: white; */
+    color: white;
+    padding: 10px;
     text-align: center;
 }
 
-.page-footer a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    background-color: #333;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+footer a {
+    color: white;
+    padding: 10px;
 }
 
 .box {
     display: flex;
     justify-content: space-around;
+}
+
+select {
+    border-radius: 10px;
+}
+
+@media screen and (max-width:576px) {
+    .btn-group {
+        display: flex;
+        flex-direction: column;
+    }
 }
