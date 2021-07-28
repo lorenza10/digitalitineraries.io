@@ -110,8 +110,8 @@ body {
     }
 }
 
-#mapid {
-    height: 400px;
+.mapid {
+    height: 500px !important;
     width: 400px;
     padding: 10px;
 }

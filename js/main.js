@@ -68,6 +68,13 @@ function getData(url) {
                     return L.circle(latlng, 5000).bindPopup(html);
                 },
             }).addTo(map);
+
+            // L.circle.on('mouseover', function(e) {
+            //     this.openPopup();
+            // });
+            // circle.on('mouseout', function(e) {
+            //     this.closePopup();
+            // });
             callSlider();
 
             function callSlider() {
@@ -138,9 +145,7 @@ function getData(url) {
                 });
 
                 $('#pause').on('click', function(e) {
-                    e.preventDefault();
-                    isPaused = true;
-                    play();
+                    clearTimeout();
                 });
 
                 $('#play').on('click', function(e) {
@@ -149,12 +154,16 @@ function getData(url) {
                     play();
                 });
 
+                function clearTimeout() {
+                    window.clearTimeout(timeoutHandle);
+                }
+
                 function play() {
                     if (!isPaused) {
                         var values = slider.noUiSlider.get()
                         for (var values = slider.noUiSlider.get(); values <= max; values++) {
                             (function(values) {
-                                setTimeout(function() {
+                                var timeoutHandle = setTimeout(function() {
                                     slider.noUiSlider.set(values);
                                     displayData(values);
                                 }, 1000 * values);
