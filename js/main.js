@@ -89,8 +89,8 @@ function getData(url) {
                 $('#all').on('click', function() {
                     {
                         monarchGeoJSON.eachLayer(function(layer) {
-                            layer.addTo(map);
                             slider.noUiSlider.reset()
+                            layer.addTo(map);
                             resetInformation();
                         })
                     }

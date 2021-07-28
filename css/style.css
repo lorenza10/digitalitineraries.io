@@ -111,8 +111,9 @@ body {
 }
 
 #mapid {
-    width: 100vh;
-    margin: 10%;
+    height: 400px;
+    width: 400px;
+    padding: 10px;
 }
 
 .leaflet-popup-content-wrapper {
