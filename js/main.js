@@ -144,7 +144,12 @@ function getData(url) {
                 });
 
                 $('#pause').on('click', function(e) {
-                    clearTimeout();
+                    exit();
+                    console.log('success')
+                        // slider.noUiSlider.reset()
+                        // e.preventDefault();
+                        // isPaused = true;
+                        // clearTimeout();
                 });
 
                 $('#play').on('click', function(e) {
@@ -166,9 +171,15 @@ function getData(url) {
                                     slider.noUiSlider.set(values);
                                     displayData(values);
                                 }, 1000 * values);
+
                             })(values);
+                            exit()
                         }
                     }
+                }
+
+                function exit() {
+                    return;
                 }
             }
         })

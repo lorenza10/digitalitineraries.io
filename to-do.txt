@@ -18,3 +18,5 @@ Clean up circles
 Make legend go to the bottom of the screen in mobile version
 
 Issue when switching to any button after pressing play, need a reset or pause feature
+
+Change the overlay into a form for better styling
