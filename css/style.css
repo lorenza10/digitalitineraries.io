@@ -112,7 +112,7 @@ body {
 
 .mapid {
     height: 500px !important;
-    width: 100%;
+    /* width: 100%; */
     padding: 10px;
     margin: 10px;
 }
@@ -145,7 +145,7 @@ body {
     margin: 10px;
     border-radius: 10px;
     box-shadow: 1px 1px 1px grey;
-    min-height: 200px;
+    /* min-height: 200px; */
 }
 
 #overlay h2 {
@@ -167,8 +167,8 @@ body {
 .page-footer a {
     float: left;
     display: block;
-    /* color: #f2f2f2; */
-    text-align: center;
+    color: #f2f2f2;
+    background-color: #333;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -176,4 +176,5 @@ body {
 
 .box {
     display: flex;
+    justify-content: space-around;
 }

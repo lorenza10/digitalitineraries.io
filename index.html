@@ -70,10 +70,10 @@
         <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="navBar()">&#9776;</a>
     </div>
     <div id="overlay">
-
+        <h2>Legend</h2>
         <div class="box">
             <div>
-                <h2>Legend</h2>
+                <h3>Monarch</h3>
                 <select id="monarch" onchange="getData()">
             <option id="countGeoffrey" value="countGeoffrey" selected>Count Geoffrey of Anjou</option>
             <option id="dukeHenry" value="dukeHenry">Duke Henry of Anjou</option>
@@ -84,31 +84,30 @@
             <option id="richard3" value="richard3">Richard III of England</option>
             <option id="stephen" value="stephen">Stephen of England</option>
             <option id="williamTheConqueror" value="williamTheConqueror">William I of England</option>
-        </select>
+                </select>
             </div>
             <div>
                 <h3>Location</h3>
-                <div type="text" id="displayLocation">Location</div>
+                <p type="text" id="displayLocation">Location</p>
             </div>
             <div>
                 <h3>Date</h3>
-                <div type="text" id="displayDate">Date</div>
+                <p type="text" id="displayDate">Date</p>
             </div>
         </div>
-    </div>
-    <div id="slider" class="sliderContainer" value="20"></div>
-    <br/>
-    <button id="play">Play</button>
-    <button id="pause">Pause</button>
-    <button id="restart">Restart</button>
-    <button id="prev">Previous</button>
-    <button id="next">Next</button>
-    <button id="all">Display All</button>
+        <div id="slider" class="sliderContainer" value="20"></div>
+        <br/>
+        <button id="play">Play</button>
+        <button id="pause">Pause</button>
+        <button id="restart">Restart</button>
+        <button id="prev">Previous</button>
+        <button id="next">Next</button>
+        <button id="all">Display All</button>
     </div>
     <div id="mapid" class="mapid"></div>
     <footer class="page-footer">
         <div>
-            <div class="row text-center d-flex justify-content-center pt-5 mb-3">
+            <div class="page-footer">
                 <div class="col-md-2 mb-3">
                     <a href="{{ url_for( 'main.accessibility') }}">Accessibility Statement</a>
                 </div>
