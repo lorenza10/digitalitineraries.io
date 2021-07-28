@@ -112,14 +112,15 @@ body {
 
 .mapid {
     height: 500px !important;
-    width: 400px;
+    width: 100%;
     padding: 10px;
+    margin: 10px;
 }
 
 .leaflet-popup-content-wrapper {
     border-radius: 0;
-    background: black;
-    color: white;
+    background: white;
+    color: black;
     font-size: 20px;
 }
 
@@ -128,7 +129,7 @@ body {
 }
 
 .leaflet-popup-tip {
-    background: black;
+    background: white;
 }
 
 .leaflet-popup-close-button {
@@ -136,7 +137,7 @@ body {
 }
 
 #overlay {
-    position: absolute;
+    /* position: absolute; */
     z-index: 1000;
     background: rgb(255, 2555, 255, 0.7);
     padding: 10px;
@@ -147,47 +148,32 @@ body {
     min-height: 200px;
 }
 
-#overlay h2,
-#slide-in h2 {
+#overlay h2 {
     margin: 0;
     padding: 0;
     margin-bottom: 10px;
 }
 
-#slide-in {
-    padding: 10px;
-    position: absolute;
-    width: 250px;
-    z-index: 1000;
-    background: white;
-    margin-left: -270px;
-    transition: 0.5s;
-}
-
-#slide-in.in {
-    margin-left: 0px;
-}
-
-#slider {
-    margin-top: 50px;
-}
-
 .page-footer {
-    position: fixed;
+    /* position: fixed; */
     left: 0;
     bottom: 0;
     width: 100vh;
     background-color: #333;
-    color: white;
+    /* color: white; */
     text-align: center;
 }
 
 .page-footer a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    /* color: #f2f2f2; */
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+}
+
+.box {
+    display: flex;
 }
