@@ -155,7 +155,7 @@ function getData(url) {
                 });
 
                 function clearTimeout() {
-                    window.clearTimeout(timeoutHandle);
+                    clearTimeout(timeoutHandle);
                 }
 
                 function play() {

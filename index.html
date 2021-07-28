@@ -17,7 +17,7 @@
 </head>
 
 <body onload="getData()">
-    <div class="topnav" id="myTopnav">
+    <div class="topnav">
         <a href="index.html">Home</a>
         <div class="dropdown">
             <button class="dropbtn">Norman
@@ -105,16 +105,11 @@
         <button id="all">Display All</button>
     </div>
     <div id="mapid" class="mapid"></div>
-    <footer class="page-footer">
-        <div>
-            <div class="page-footer">
-                <div class="col-md-2 mb-3">
-                    <a href="{{ url_for( 'main.accessibility') }}">Accessibility Statement</a>
-                </div>
-                <div class="col-md-2 mb-3">
-                    <a href="{{ url_for('main.contact') }}">Contact Us</a>
-                </div>
-            </div>
+    <footer>
+        <div class="page-footer">
+            <a href="#">Accessibility Statement</a>
+            <a href="#">Contact Us</a>
+        </div>
     </footer>
 </body>
 
