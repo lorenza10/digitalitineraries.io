@@ -145,39 +145,43 @@ function getData(url) {
                 });
 
                 $('#pause').on('click', function(e) {
-                    // exit();
-                    console.log('success')
-                    myStopFunction();
-                    // slider.noUiSlider.reset()
-                    // e.preventDefault();
-                    // isPaused = true;
-                    // clearTimeout();
+                    clearInterval(timer);
+                    timer = null
                 });
 
                 $('#play').on('click', function(e) {
-                    e.preventDefault();
-                    isPaused = false;
-                    timer();
-                    ('success')
+                    if (timer !== null) return;
+                    timer = setInterval(function() {
+                        var values = slider.noUiSlider.get()
+                        values++;
+                        slider.noUiSlider.set(values);
+                        displayData(values);
+                    }, interval);
                 });
 
                 function clearTimeout() {
                     clearTimeout(timeoutHandle);
                 }
 
-                var interval = setInterval(timer, 1000);
+                var timer = null,
+                    interval = 1000,
+                    value = 0;
 
-                function timer() {
-                    var values = slider.noUiSlider.get()
-                    console.log(values);
-                    values++;
-                    slider.noUiSlider.set(values);
-                    displayData(values);
-                }
+                // function timeInterval() {
+                //     var interval = setInterval(timer, 1000);
+                // }
 
-                function myStopFunction() {
-                    clearInterval(interval);
-                }
+                // function timer() {
+                //     var values = slider.noUiSlider.get()
+                //     console.log(values);
+                //     values++;
+                //     slider.noUiSlider.set(values);
+                //     displayData(values);
+                // }
+
+                // function myStopFunction() {
+                //     clearInterval(interval);
+                // }
 
                 // function play() {
                 //     if (!isPaused) {
