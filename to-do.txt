@@ -13,5 +13,6 @@ Add google sheets data
 
 Clean up circles
 
+Issue with next and previous buttons, page just seems to reload
 
 Issue when switching to any button after pressing play, need a reset or pause feature

@@ -127,7 +127,8 @@ function getData(url) {
 
                 $('#next').on('click', function() {
                     var values = slider.noUiSlider.get();
-                    if (values < max) {
+                    if (values <= max) {
+
                         values++;
                         slider.noUiSlider.set(values);
                         displayData(values);
