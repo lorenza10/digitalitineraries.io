@@ -186,3 +186,11 @@ select {
         border-radius: 10px !important;
     }
 }
+
+.play .btn-secondary {
+    margin-top: 2px;
+}
+
+.move .btn-secondary {
+    margin-top: 2px;
+}
