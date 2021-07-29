@@ -149,6 +149,11 @@ function getData(url) {
                     timer = null
                 });
 
+                $('#monarch').on('click', function(e) {
+                    clearInterval(timer);
+                    timer = null
+                });
+
                 $('#play').on('click', function(e) {
                     if (timer !== null) return;
                     timer = setInterval(function() {
@@ -160,12 +165,12 @@ function getData(url) {
                 });
 
                 function clearTimeout() {
-                    clearTimeout(timeoutHandle);
+                    clearInterval(timer);
+                    timer = null
                 }
 
                 var timer = null,
-                    interval = 1000,
-                    value = 0;
+                    interval = 1000;
 
                 // function timeInterval() {
                 //     var interval = setInterval(timer, 1000);
