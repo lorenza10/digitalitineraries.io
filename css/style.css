@@ -174,11 +174,15 @@ footer a {
 
 select {
     border-radius: 10px;
+    margin-bottom: 5px !important;
 }
 
 @media screen and (max-width:576px) {
     .btn-group {
         display: flex;
         flex-direction: column;
+    }
+    button {
+        border-radius: 10px !important;
     }
 }

@@ -93,7 +93,7 @@ function getData(url) {
                 })
 
                 $('#all').on('click', function() {
-                    {
+                    clearTimeout(); {
                         monarchGeoJSON.eachLayer(function(layer) {
                             slider.noUiSlider.reset()
                             layer.addTo(map);
@@ -120,6 +120,7 @@ function getData(url) {
                 });
 
                 $('#restart').on('click', function() {
+                    clearTimeout();
                     slider.noUiSlider.reset()
                     var values = slider.noUiSlider.get();
                     displayData(values);
@@ -144,17 +145,15 @@ function getData(url) {
                     }
                 });
 
-                $('#pause').on('click', function(e) {
-                    clearInterval(timer);
-                    timer = null
+                $('#pause').on('click', function() {
+                    clearTimeout();
                 });
 
-                $('#monarch').on('click', function(e) {
-                    clearInterval(timer);
-                    timer = null
+                $('#monarch').on('click', function() {
+                    clearTimeout();
                 });
 
-                $('#play').on('click', function(e) {
+                $('#play').on('click', function() {
                     if (timer !== null) return;
                     timer = setInterval(function() {
                         var values = slider.noUiSlider.get()
