@@ -20,60 +20,12 @@
 <body onload="getData()">
     <div class="topnav" id="myTopnav">
         <a href="index.html">Home</a>
-        <div class="dropdown">
-            <button class="dropbtn">Norman
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-                <a href="#">William the Conqueror</a>
-            </div>
-        </div>
-        <div class="dropdown">
-            <button class="dropbtn">Anarchy
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-                <a href="#">Stephen</a>
-                <a href="#">Empress Matilda in England</a>
-                <a href="#">Count Geoffrey</a>
-                <a href="#">Duke Henry</a>
-            </div>
-        </div>
-        <div class="dropdown">
-            <button class="dropbtn">Angevins
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-                <a href="john.html">John</a>
-            </div>
-        </div>
-        <div class="dropdown">
-            <button class="dropbtn">Plantagenet
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-                <a href="#">Edward I</a>
-                <a href="#">Edward II</a>
-            </div>
-        </div>
-        <div class="dropdown">
-            <button class="dropbtn">House of York
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-                <a href="#">Edward IV</a>
-                <a href="#">Edward V</a>
-                <a href="#">Richard III</a>
-            </div>
-
-        </div>
         <a href="about.html">About</a>
         <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="navBar()">&#9776;</a>
     </div>
     <div id="overlay">
-        <!-- <h2>Legend</h2> -->
         <div class="row justify-content-center">
-            <div class="col-md-3">
+            <div class="col">
                 <h3>Monarch</h3>
                 <select id="monarch" onchange="getData();">
             <option id="countGeoffrey" value="countGeoffrey" selected>Count Geoffrey of Anjou</option>
@@ -87,17 +39,16 @@
             <option id="williamTheConqueror" value="williamTheConqueror">William I of England</option>
                 </select>
             </div>
-            <div class="col-md-3">
+            <div class="col">
                 <h3>Location</h3>
                 <div type="text" id="displayLocation">Location</div>
             </div>
-            <div class="col-md-3">
+            <div class="col">
                 <h3>Date</h3>
                 <div type="text" id="displayDate">Date</div>
             </div>
         </div>
         <div id="slider" class="sliderContainer" value="20"></div>
-        <br/>
         <div class='wrapper text-center'>
             <div class="btn-group" data-toggle="buttons" role="group" aria-label="button group">
                 <button id="play" class="btn btn-secondary">Play</button>
