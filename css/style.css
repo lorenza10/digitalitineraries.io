@@ -111,10 +111,12 @@ body {
 }
 
 .mapid {
-    height: 500px !important;
+    height: 650px !important;
     /* width: 100%; */
     padding: 10px;
     margin: 10px;
+    box-shadow: 1px 1px 1px grey;
+    border-radius: 10px;
 }
 
 .leaflet-popup-content-wrapper {
@@ -181,6 +183,9 @@ select {
     .btn-group {
         display: flex;
         flex-direction: column;
+    }
+    .mapid {
+        height: 300px !important;
     }
     button {
         border-radius: 10px !important;
