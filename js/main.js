@@ -145,39 +145,54 @@ function getData(url) {
                 });
 
                 $('#pause').on('click', function(e) {
-                    exit();
+                    // exit();
                     console.log('success')
-                        // slider.noUiSlider.reset()
-                        // e.preventDefault();
-                        // isPaused = true;
-                        // clearTimeout();
+                    myStopFunction();
+                    // slider.noUiSlider.reset()
+                    // e.preventDefault();
+                    // isPaused = true;
+                    // clearTimeout();
                 });
 
                 $('#play').on('click', function(e) {
                     e.preventDefault();
                     isPaused = false;
-                    play();
+                    timer();
+                    ('success')
                 });
 
                 function clearTimeout() {
                     clearTimeout(timeoutHandle);
                 }
 
-                function play() {
-                    if (!isPaused) {
-                        var values = slider.noUiSlider.get()
-                        for (var values = slider.noUiSlider.get(); values <= max; values++) {
-                            (function(values) {
-                                var timeoutHandle = setTimeout(function() {
-                                    slider.noUiSlider.set(values);
-                                    displayData(values);
-                                }, 1000 * values);
+                var interval = setInterval(timer, 1000);
 
-                            })(values);
-                            exit()
-                        }
-                    }
+                function timer() {
+                    var values = slider.noUiSlider.get()
+                    console.log(values);
+                    values++;
+                    slider.noUiSlider.set(values);
+                    displayData(values);
                 }
+
+                function myStopFunction() {
+                    clearInterval(interval);
+                }
+
+                // function play() {
+                //     if (!isPaused) {
+                //         var values = slider.noUiSlider.get()
+                //         for (var values = slider.noUiSlider.get(); values <= max; values++) {
+                //             (function(values) {
+                //                 timeoutHandle = setTimeout(function() {
+                //                     slider.noUiSlider.set(values);
+                //                     displayData(values);
+                //                 }, 1000 * values);
+
+                //             })(values);
+                //         }
+                //     }
+                // }
 
                 function exit() {
                     return;
