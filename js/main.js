@@ -51,6 +51,19 @@ function getData(url) {
                         opacity: 1
                     };
                 },
+                onEachFeature: function(feature, layer) {
+                    layer.on('mouseover', function() {
+                        layer.setStyle({
+                            fillOpacity: 0.3
+                        })
+                    })
+                    layer.on('mouseout', function() {
+                        layer.setStyle({
+                            fillOpacity: 1
+                        })
+                        $('#country-information').html(layer.feature.properties.name + '(' + layer.feature.id + ')');
+                    })
+                },
                 pointToLayer: function(geoJsonPoint, latlng) {
                     if (geoJsonPoint.properties.id < min || min === 0) {
                         min = geoJsonPoint.properties.id;
@@ -68,12 +81,7 @@ function getData(url) {
                 },
             }).addTo(map);
 
-            // L.circle.on('mouseover', function(e) {
-            //     this.openPopup();
-            // });
-            // circle.on('mouseout', function(e) {
-            //     this.closePopup();
-            // });
+
             callSlider();
 
             function callSlider() {
@@ -171,40 +179,6 @@ function getData(url) {
                 var timer = null,
                     interval = 1000;
 
-                // function timeInterval() {
-                //     var interval = setInterval(timer, 1000);
-                // }
-
-                // function timer() {
-                //     var values = slider.noUiSlider.get()
-                //     console.log(values);
-                //     values++;
-                //     slider.noUiSlider.set(values);
-                //     displayData(values);
-                // }
-
-                // function myStopFunction() {
-                //     clearInterval(interval);
-                // }
-
-                // function play() {
-                //     if (!isPaused) {
-                //         var values = slider.noUiSlider.get()
-                //         for (var values = slider.noUiSlider.get(); values <= max; values++) {
-                //             (function(values) {
-                //                 timeoutHandle = setTimeout(function() {
-                //                     slider.noUiSlider.set(values);
-                //                     displayData(values);
-                //                 }, 1000 * values);
-
-                //             })(values);
-                //         }
-                //     }
-                // }
-
-                function exit() {
-                    return;
-                }
             }
         })
         .catch(error => console.log(error.message));
