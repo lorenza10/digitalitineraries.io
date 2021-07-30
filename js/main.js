@@ -56,6 +56,7 @@ function getData(url) {
                         layer.setStyle({
                             fillOpacity: 0.3
                         })
+
                     })
                     layer.on('mouseout', function() {
                         layer.setStyle({
