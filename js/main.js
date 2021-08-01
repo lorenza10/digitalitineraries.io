@@ -24,12 +24,16 @@ function getData(url) {
     var map = L.map('mapid', {
             zoomControl: false
         })
-        .setView([50.546352605448064, 0.9171352255804207, ], 6);
+        .setView([50.546352605448064, 0.9171352255804207, ], 5);
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png?access_token={accessToken}', {
         attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
         id: 'mapbox/streets-v11',
         accessToken: 'accessToken'
+    }).addTo(map);
+
+    L.control.zoom({
+        position: 'bottomleft'
     }).addTo(map);
 
     var monarchGeoJSON = false;
