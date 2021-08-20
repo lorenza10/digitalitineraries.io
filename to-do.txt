@@ -11,4 +11,6 @@ Add google sheets data
 
 Clean up circles
 
+Add data visualistation, ie charts and word diagrams to show the most visited places
+
 Issue when switching to any button after pressing play, need a reset or pause feature

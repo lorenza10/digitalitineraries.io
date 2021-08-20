@@ -38,7 +38,7 @@ function getData(url) {
 
     var monarchGeoJSON = false;
     var newMonarch = document.getElementById('monarch').value;
-    url = 'data/json/' + newMonarch + '.json'
+    var url = 'data/json/' + newMonarch + '.json'
     fetch(url, {
             method: 'GET'
         })
