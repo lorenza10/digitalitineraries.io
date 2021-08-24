@@ -76,7 +76,6 @@ function getData(url) {
                     if (geoJsonPoint.properties.id > max) {
                         max = geoJsonPoint.properties.id;
                     }
-
                     var html = '';
                     var arrayOfProps = ['location', 'id', 'date', 'comments'];
                     arrayOfProps.forEach(function(prop) {
