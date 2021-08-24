@@ -1,4 +1,4 @@
-id,location,date,month,year,month(no),time,comments,latitude,longitude
+id,location,day,month,year,month(no),date,comments,latitude,longitude
 1,Carrouges,21,Sept,1136,9,21-9-1136,,48.5683,-0.1444
 2,Ecouché,21,Sept,1136,9,21-9-1136,,48.718,-0.1236
 3,Saint-Georges d'Asnebec,21,Sept,1136,9,21-9-1136,(Saint-Georges-d'Annebecq),48.6339,-0.2639

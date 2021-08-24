@@ -1,4 +1,4 @@
-id,location,date,month,year,month(number),time,OSGridRef,latitude,longitude
+id,location,day,month,year,month(number),date,OSGridRef,latitude,longitude,comments
 1,Caen,17,june,1066,6,17-6-1066,,49.182861,-0.370679
 2,Pevensey,29,september,1066,9,29-9-1066,TQ6480304912,50.820303,0.3383067
 3,Senlac,14,october,1066,10,14-10-1066,TQ7496715444,50.911944,0.4875

@@ -9,9 +9,9 @@
             "properties": {
                 "id": 1,
                 "location": "Le Bec-Hellouin",
-                "time": "29-5-1147",
-                "notes": "",
-                "osGrid": "",
+                "date": "29-5-1147",
+                "comments": "",
+                "OSGrid": "",
                 "nation": "France"
             }
         },
@@ -24,9 +24,9 @@
             "properties": {
                 "id": 2,
                 "location": "Rouen",
-                "time": "11-10-1147",
-                "notes": "",
-                "osGrid": "",
+                "date": "11-10-1147",
+                "comments": "",
+                "OSGrid": "",
                 "nation": "France"
             }
         },
@@ -39,9 +39,9 @@
             "properties": {
                 "id": 3,
                 "location": "Devizes",
-                "time": "13-4-1149",
-                "notes": "",
-                "osGrid": "SU0051461547",
+                "date": "13-4-1149",
+                "comments": "",
+                "OSGrid": "SU0051461547",
                 "nation": "England"
             }
         },
@@ -54,9 +54,9 @@
             "properties": {
                 "id": 4,
                 "location": "Carlisle",
-                "time": "22-5-1149",
-                "notes": "",
-                "osGrid": "NY3954755548",
+                "date": "22-5-1149",
+                "comments": "",
+                "OSGrid": "NY3954755548",
                 "nation": "England"
             }
         },
@@ -69,9 +69,9 @@
             "properties": {
                 "id": 5,
                 "location": "Lancaster",
-                "time": "1149",
-                "notes": "",
-                "osGrid": "SD4765161523",
+                "date": "1149",
+                "comments": "",
+                "OSGrid": "SD4765161523",
                 "nation": "England"
             }
         },
@@ -84,9 +84,9 @@
             "properties": {
                 "id": 6,
                 "location": "Hereford",
-                "time": "1149",
-                "notes": "",
-                "osGrid": "SO5100440033",
+                "date": "1149",
+                "comments": "",
+                "OSGrid": "SO5100440033",
                 "nation": "England"
             }
         },
@@ -99,9 +99,9 @@
             "properties": {
                 "id": 7,
                 "location": "Dursley",
-                "time": "1149",
-                "notes": "",
-                "osGrid": "ST7560198097",
+                "date": "1149",
+                "comments": "",
+                "OSGrid": "ST7560198097",
                 "nation": "England"
             }
         },
@@ -114,9 +114,9 @@
             "properties": {
                 "id": 8,
                 "location": "Bristol",
-                "time": "1149",
-                "notes": "",
-                "osGrid": "ST5956172497",
+                "date": "1149",
+                "comments": "",
+                "OSGrid": "ST5956172497",
                 "nation": "England"
             }
         },
@@ -129,9 +129,9 @@
             "properties": {
                 "id": 9,
                 "location": "Devizes",
-                "time": "9-1149",
-                "notes": "",
-                "osGrid": "SU0051461547",
+                "date": "9-1149",
+                "comments": "",
+                "OSGrid": "SU0051461547",
                 "nation": "England"
             }
         },
@@ -144,9 +144,9 @@
             "properties": {
                 "id": 10,
                 "location": "Devon",
-                "time": "1149",
-                "notes": "",
-                "osGrid": "SX7890692188",
+                "date": "1149",
+                "comments": "",
+                "OSGrid": "SX7890692188",
                 "nation": "England"
             }
         },
@@ -159,9 +159,9 @@
             "properties": {
                 "id": 11,
                 "location": "Bridport",
-                "time": "1149",
-                "notes": "",
-                "osGrid": "SY4657492939",
+                "date": "1149",
+                "comments": "",
+                "OSGrid": "SY4657492939",
                 "nation": "England"
             }
         },
@@ -174,9 +174,9 @@
             "properties": {
                 "id": 12,
                 "location": "Devizes",
-                "time": "1149",
-                "notes": "",
-                "osGrid": "SU0051461547",
+                "date": "1149",
+                "comments": "",
+                "OSGrid": "SU0051461547",
                 "nation": "England"
             }
         },
@@ -189,9 +189,9 @@
             "properties": {
                 "id": 13,
                 "location": "? Rouen",
-                "time": "1150",
-                "notes": "(Duke of Normandy)",
-                "osGrid": "",
+                "date": "1150",
+                "comments": "(Duke of Normandy)",
+                "OSGrid": "",
                 "nation": "France"
             }
         },
@@ -204,9 +204,9 @@
             "properties": {
                 "id": 14,
                 "location": "? Rouen",
-                "time": "1150",
-                "notes": "",
-                "osGrid": "",
+                "date": "1150",
+                "comments": "",
+                "OSGrid": "",
                 "nation": "France"
             }
         },
@@ -219,9 +219,9 @@
             "properties": {
                 "id": 15,
                 "location": "? Le Bec-Hellouin",
-                "time": "1150",
-                "notes": "",
-                "osGrid": "",
+                "date": "1150",
+                "comments": "",
+                "OSGrid": "",
                 "nation": "France"
             }
         },
@@ -234,9 +234,9 @@
             "properties": {
                 "id": 16,
                 "location": "? Caen",
-                "time": "1150",
-                "notes": "",
-                "osGrid": "",
+                "date": "1150",
+                "comments": "",
+                "OSGrid": "",
                 "nation": "France"
             }
         },
@@ -249,9 +249,9 @@
             "properties": {
                 "id": 17,
                 "location": "? Falaise",
-                "time": "1150",
-                "notes": "",
-                "osGrid": "",
+                "date": "1150",
+                "comments": "",
+                "OSGrid": "",
                 "nation": "France"
             }
         },
@@ -264,9 +264,9 @@
             "properties": {
                 "id": 18,
                 "location": "? Mortain",
-                "time": "1151",
-                "notes": "",
-                "osGrid": "",
+                "date": "1151",
+                "comments": "",
+                "OSGrid": "",
                 "nation": "France"
             }
         },
@@ -279,9 +279,9 @@
             "properties": {
                 "id": 19,
                 "location": "Torigni-sur-Vire",
-                "time": "1151",
-                "notes": "",
-                "osGrid": "",
+                "date": "1151",
+                "comments": "",
+                "OSGrid": "",
                 "nation": "France"
             }
         },
@@ -294,9 +294,9 @@
             "properties": {
                 "id": 20,
                 "location": "Arques",
-                "time": "1151",
-                "notes": "",
-                "osGrid": "",
+                "date": "1151",
+                "comments": "",
+                "OSGrid": "",
                 "nation": "France"
             }
         },
@@ -309,9 +309,9 @@
             "properties": {
                 "id": 21,
                 "location": "In the Vexin",
-                "time": "1151",
-                "notes": "",
-                "osGrid": "",
+                "date": "1151",
+                "comments": "",
+                "OSGrid": "",
                 "nation": "France"
             }
         },
@@ -324,9 +324,9 @@
             "properties": {
                 "id": 22,
                 "location": "Paris",
-                "time": "8-1151",
-                "notes": "",
-                "osGrid": "",
+                "date": "8-1151",
+                "comments": "",
+                "OSGrid": "",
                 "nation": "France"
             }
         },
@@ -339,9 +339,9 @@
             "properties": {
                 "id": 23,
                 "location": "Lisieux",
-                "time": "1151",
-                "notes": "",
-                "osGrid": "",
+                "date": "1151",
+                "comments": "",
+                "OSGrid": "",
                 "nation": "France"
             }
         },
@@ -354,9 +354,9 @@
             "properties": {
                 "id": 24,
                 "location": "Chateau-du-Loir",
-                "time": "7-9-1151",
-                "notes": "(death of Count Geoffrey)",
-                "osGrid": "",
+                "date": "7-9-1151",
+                "comments": "(death of Count Geoffrey)",
+                "OSGrid": "",
                 "nation": "France"
             }
         },
@@ -369,9 +369,9 @@
             "properties": {
                 "id": 25,
                 "location": "Le Mans",
-                "time": "1151",
-                "notes": "(funeral of Count Geoffrey)",
-                "osGrid": "",
+                "date": "1151",
+                "comments": "(funeral of Count Geoffrey)",
+                "OSGrid": "",
                 "nation": "France"
             }
         },
@@ -384,9 +384,9 @@
             "properties": {
                 "id": 26,
                 "location": "? Argentan",
-                "time": "1151",
-                "notes": "",
-                "osGrid": "",
+                "date": "1151",
+                "comments": "",
+                "OSGrid": "",
                 "nation": "France"
             }
         },
@@ -399,9 +399,9 @@
             "properties": {
                 "id": 27,
                 "location": "? Rouen",
-                "time": "1151",
-                "notes": "",
-                "osGrid": "",
+                "date": "1151",
+                "comments": "",
+                "OSGrid": "",
                 "nation": "France"
             }
         },
@@ -414,9 +414,9 @@
             "properties": {
                 "id": 28,
                 "location": "Bayeux",
-                "time": "11-1151",
-                "notes": "",
-                "osGrid": "",
+                "date": "11-1151",
+                "comments": "",
+                "OSGrid": "",
                 "nation": "France"
             }
         },
@@ -429,9 +429,9 @@
             "properties": {
                 "id": 29,
                 "location": "? Domfront",
-                "time": "1151",
-                "notes": "",
-                "osGrid": "",
+                "date": "1151",
+                "comments": "",
+                "OSGrid": "",
                 "nation": "France"
             }
         },
@@ -444,9 +444,9 @@
             "properties": {
                 "id": 30,
                 "location": "Angers",
-                "time": "9-11-1151",
-                "notes": "",
-                "osGrid": "",
+                "date": "9-11-1151",
+                "comments": "",
+                "OSGrid": "",
                 "nation": "France"
             }
         },
@@ -458,10 +458,10 @@
             },
             "properties": {
                 "id": 31,
-                "location": "Baugé",
-                "time": "1-1-1152",
-                "notes": "",
-                "osGrid": "",
+                "location": "Baug�",
+                "date": "1-1-1152",
+                "comments": "",
+                "OSGrid": "",
                 "nation": "France"
             }
         },
@@ -474,9 +474,9 @@
             "properties": {
                 "id": 32,
                 "location": "? Angers",
-                "time": "1152",
-                "notes": "",
-                "osGrid": "",
+                "date": "1152",
+                "comments": "",
+                "OSGrid": "",
                 "nation": "France"
             }
         },
@@ -489,9 +489,9 @@
             "properties": {
                 "id": 33,
                 "location": "? Amboise",
-                "time": "1152",
-                "notes": "",
-                "osGrid": "",
+                "date": "1152",
+                "comments": "",
+                "OSGrid": "",
                 "nation": "France"
             }
         },
@@ -504,9 +504,9 @@
             "properties": {
                 "id": 34,
                 "location": "Lisieux",
-                "time": "6-4-1152",
-                "notes": "",
-                "osGrid": "",
+                "date": "6-4-1152",
+                "comments": "",
+                "OSGrid": "",
                 "nation": "France"
             }
         },
@@ -519,9 +519,9 @@
             "properties": {
                 "id": 35,
                 "location": "? Rouen",
-                "time": "1152",
-                "notes": "",
-                "osGrid": "",
+                "date": "1152",
+                "comments": "",
+                "OSGrid": "",
                 "nation": "France"
             }
         },
@@ -534,9 +534,9 @@
             "properties": {
                 "id": 36,
                 "location": "? Tours",
-                "time": "1152",
-                "notes": "",
-                "osGrid": "",
+                "date": "1152",
+                "comments": "",
+                "OSGrid": "",
                 "nation": "France"
             }
         },
@@ -549,9 +549,9 @@
             "properties": {
                 "id": 37,
                 "location": "Poitiers",
-                "time": "18-5-1152",
-                "notes": "(marriage to Eleanor of Aquitaine)",
-                "osGrid": "",
+                "date": "18-5-1152",
+                "comments": "(marriage to Eleanor of Aquitaine)",
+                "OSGrid": "",
                 "nation": "France"
             }
         },
@@ -564,9 +564,9 @@
             "properties": {
                 "id": 38,
                 "location": "? Chateau-du-Loir",
-                "time": "1152",
-                "notes": "",
-                "osGrid": "",
+                "date": "1152",
+                "comments": "",
+                "OSGrid": "",
                 "nation": "France"
             }
         },
@@ -579,9 +579,9 @@
             "properties": {
                 "id": 39,
                 "location": "? Falaise",
-                "time": "1152",
-                "notes": "",
-                "osGrid": "",
+                "date": "1152",
+                "comments": "",
+                "OSGrid": "",
                 "nation": "France"
             }
         },
@@ -594,9 +594,9 @@
             "properties": {
                 "id": 40,
                 "location": "Barfleur",
-                "time": "24/6-16/7-1152",
-                "notes": "",
-                "osGrid": "",
+                "date": "24/6-16/7-1152",
+                "comments": "",
+                "OSGrid": "",
                 "nation": "France"
             }
         },
@@ -609,9 +609,9 @@
             "properties": {
                 "id": 41,
                 "location": "Bacqueville",
-                "time": "1152",
-                "notes": "",
-                "osGrid": "",
+                "date": "1152",
+                "comments": "",
+                "OSGrid": "",
                 "nation": "France"
             }
         },
@@ -624,9 +624,9 @@
             "properties": {
                 "id": 42,
                 "location": "Guitry",
-                "time": "1152",
-                "notes": "",
-                "osGrid": "",
+                "date": "1152",
+                "comments": "",
+                "OSGrid": "",
                 "nation": "France"
             }
         },
@@ -638,10 +638,10 @@
             },
             "properties": {
                 "id": 43,
-                "location": "Étrépagny",
-                "time": "1152",
-                "notes": "",
-                "osGrid": "",
+                "location": "�tr�pagny",
+                "date": "1152",
+                "comments": "",
+                "OSGrid": "",
                 "nation": "France"
             }
         },
@@ -653,10 +653,10 @@
             },
             "properties": {
                 "id": 44,
-                "location": "La Ferté-Saint-Samson",
-                "time": "1152",
-                "notes": "",
-                "osGrid": "",
+                "location": "La Fert�-Saint-Samson",
+                "date": "1152",
+                "comments": "",
+                "OSGrid": "",
                 "nation": "France"
             }
         },
@@ -669,9 +669,9 @@
             "properties": {
                 "id": 45,
                 "location": "Vernon",
-                "time": "1152",
-                "notes": "",
-                "osGrid": "",
+                "date": "1152",
+                "comments": "",
+                "OSGrid": "",
                 "nation": "France"
             }
         },
@@ -684,9 +684,9 @@
             "properties": {
                 "id": 46,
                 "location": "Pacy-sur-Eure",
-                "time": "1152",
-                "notes": "",
-                "osGrid": "",
+                "date": "1152",
+                "comments": "",
+                "OSGrid": "",
                 "nation": "France"
             }
         },
@@ -698,10 +698,10 @@
             },
             "properties": {
                 "id": 47,
-                "location": "Brézolles",
-                "time": "1152",
-                "notes": "",
-                "osGrid": "",
+                "location": "Br�zolles",
+                "date": "1152",
+                "comments": "",
+                "OSGrid": "",
                 "nation": "France"
             }
         },
@@ -714,9 +714,9 @@
             "properties": {
                 "id": 48,
                 "location": "Marcilly-sur-Eure",
-                "time": "1152",
-                "notes": "",
-                "osGrid": "",
+                "date": "1152",
+                "comments": "",
+                "OSGrid": "",
                 "nation": "France"
             }
         },
@@ -729,9 +729,9 @@
             "properties": {
                 "id": 49,
                 "location": "Bonsmoulins",
-                "time": "1152",
-                "notes": "",
-                "osGrid": "",
+                "date": "1152",
+                "comments": "",
+                "OSGrid": "",
                 "nation": "France"
             }
         },
@@ -744,9 +744,9 @@
             "properties": {
                 "id": 50,
                 "location": "Montsoreau (nr. Saumur)",
-                "time": "1152",
-                "notes": "",
-                "osGrid": "",
+                "date": "1152",
+                "comments": "",
+                "OSGrid": "",
                 "nation": "France"
             }
         },
@@ -759,9 +759,9 @@
             "properties": {
                 "id": 51,
                 "location": "Barfleur",
-                "time": "1152",
-                "notes": "",
-                "osGrid": "",
+                "date": "1152",
+                "comments": "",
+                "OSGrid": "",
                 "nation": "France"
             }
         },
@@ -774,9 +774,9 @@
             "properties": {
                 "id": 52,
                 "location": "? Wareham",
-                "time": "13-1-1153",
-                "notes": "",
-                "osGrid": "SY9233387378",
+                "date": "13-1-1153",
+                "comments": "",
+                "OSGrid": "SY9233387378",
                 "nation": "England"
             }
         },
@@ -789,9 +789,9 @@
             "properties": {
                 "id": 53,
                 "location": "? Devizes",
-                "time": "1153",
-                "notes": "",
-                "osGrid": "SU0051461547",
+                "date": "1153",
+                "comments": "",
+                "OSGrid": "SU0051461547",
                 "nation": "England"
             }
         },
@@ -804,9 +804,9 @@
             "properties": {
                 "id": 54,
                 "location": "Malmesbury",
-                "time": "1153",
-                "notes": "",
-                "osGrid": "ST9330787243",
+                "date": "1153",
+                "comments": "",
+                "OSGrid": "ST9330787243",
                 "nation": "England"
             }
         },
@@ -819,9 +819,9 @@
             "properties": {
                 "id": 55,
                 "location": "? Bristol",
-                "time": "1153",
-                "notes": "",
-                "osGrid": "ST5956172497",
+                "date": "1153",
+                "comments": "",
+                "OSGrid": "ST5956172497",
                 "nation": "England"
             }
         },
@@ -834,9 +834,9 @@
             "properties": {
                 "id": 56,
                 "location": "? Gloucester",
-                "time": "19-4-1153",
-                "notes": "(Duke of Aquitaine)",
-                "osGrid": "SO8320018600",
+                "date": "19-4-1153",
+                "comments": "(Duke of Aquitaine)",
+                "OSGrid": "SO8320018600",
                 "nation": "England"
             }
         },
@@ -849,9 +849,9 @@
             "properties": {
                 "id": 57,
                 "location": "? Berkeley",
-                "time": "1153",
-                "notes": "",
-                "osGrid": "ST6836999238",
+                "date": "1153",
+                "comments": "",
+                "OSGrid": "ST6836999238",
                 "nation": "England"
             }
         },
@@ -864,9 +864,9 @@
             "properties": {
                 "id": 58,
                 "location": "? Evesham",
-                "time": "1153",
-                "notes": "",
-                "osGrid": "SP0372843741",
+                "date": "1153",
+                "comments": "",
+                "OSGrid": "SP0372843741",
                 "nation": "England"
             }
         },
@@ -879,9 +879,9 @@
             "properties": {
                 "id": 59,
                 "location": "? Dudley",
-                "time": "1153",
-                "notes": "",
-                "osGrid": "SO9405690016",
+                "date": "1153",
+                "comments": "",
+                "OSGrid": "SO9405690016",
                 "nation": "England"
             }
         },
@@ -894,9 +894,9 @@
             "properties": {
                 "id": 60,
                 "location": "Leicester",
-                "time": "7-6-1153",
-                "notes": "",
-                "osGrid": "SK5875204306",
+                "date": "7-6-1153",
+                "comments": "",
+                "OSGrid": "SK5875204306",
                 "nation": "England"
             }
         },
@@ -909,9 +909,9 @@
             "properties": {
                 "id": 61,
                 "location": "? Coventry",
-                "time": "1153",
-                "notes": "",
-                "osGrid": "SP 33392 79007",
+                "date": "1153",
+                "comments": "",
+                "OSGrid": "SP 33392 79007",
                 "nation": "England"
             }
         },
@@ -924,9 +924,9 @@
             "properties": {
                 "id": 62,
                 "location": "Warwick",
-                "time": "1153",
-                "notes": "",
-                "osGrid": "SP2806864730",
+                "date": "1153",
+                "comments": "",
+                "OSGrid": "SP2806864730",
                 "nation": "England"
             }
         },
@@ -939,9 +939,9 @@
             "properties": {
                 "id": 63,
                 "location": "Bedford",
-                "time": "1153",
-                "notes": "",
-                "osGrid": "TL0481649626",
+                "date": "1153",
+                "comments": "",
+                "OSGrid": "TL0481649626",
                 "nation": "England"
             }
         },
@@ -954,9 +954,9 @@
             "properties": {
                 "id": 64,
                 "location": "Wallingford",
-                "time": "1153",
-                "notes": "",
-                "osGrid": "TL5400038328",
+                "date": "1153",
+                "comments": "",
+                "OSGrid": "TL5400038328",
                 "nation": "England"
             }
         },
@@ -969,9 +969,9 @@
             "properties": {
                 "id": 65,
                 "location": "Siege of Crowmarsh",
-                "time": "1153",
-                "notes": "",
-                "osGrid": "SU6160389280",
+                "date": "1153",
+                "comments": "",
+                "OSGrid": "SU6160389280",
                 "nation": "England"
             }
         },
@@ -984,9 +984,9 @@
             "properties": {
                 "id": 66,
                 "location": "Stamford",
-                "time": "1153",
-                "notes": "",
-                "osGrid": "TF0282607016",
+                "date": "1153",
+                "comments": "",
+                "OSGrid": "TF0282607016",
                 "nation": "England"
             }
         },
@@ -999,9 +999,9 @@
             "properties": {
                 "id": 67,
                 "location": "Nottingham",
-                "time": "1153",
-                "notes": "",
-                "osGrid": "SK5700040000",
+                "date": "1153",
+                "comments": "",
+                "OSGrid": "SK5700040000",
                 "nation": "England"
             }
         },
@@ -1014,9 +1014,9 @@
             "properties": {
                 "id": 68,
                 "location": "? Devizes",
-                "time": "1153",
-                "notes": "",
-                "osGrid": "SU0051461547",
+                "date": "1153",
+                "comments": "",
+                "OSGrid": "SU0051461547",
                 "nation": "England"
             }
         },
@@ -1029,9 +1029,9 @@
             "properties": {
                 "id": 69,
                 "location": "? Wilton",
-                "time": "1153",
-                "notes": "",
-                "osGrid": "SU0962331195",
+                "date": "1153",
+                "comments": "",
+                "OSGrid": "SU0962331195",
                 "nation": "England"
             }
         },
@@ -1044,9 +1044,9 @@
             "properties": {
                 "id": 70,
                 "location": "Winchester",
-                "time": "6-11-1153",
-                "notes": "(with Stephen)",
-                "osGrid": "SU4779329466",
+                "date": "6-11-1153",
+                "comments": "(with Stephen)",
+                "OSGrid": "SU4779329466",
                 "nation": "England"
             }
         },
@@ -1059,9 +1059,9 @@
             "properties": {
                 "id": 71,
                 "location": "London",
-                "time": "1153",
-                "notes": "(with Stephen)",
-                "osGrid": "TQ3248081340",
+                "date": "1153",
+                "comments": "(with Stephen)",
+                "OSGrid": "TQ3248081340",
                 "nation": "England"
             }
         },
@@ -1074,9 +1074,9 @@
             "properties": {
                 "id": 72,
                 "location": "Westminster",
-                "time": "1153",
-                "notes": "(with Stephen)",
-                "osGrid": "TQ3016079670",
+                "date": "1153",
+                "comments": "(with Stephen)",
+                "OSGrid": "TQ3016079670",
                 "nation": "England"
             }
         },
@@ -1089,9 +1089,9 @@
             "properties": {
                 "id": 73,
                 "location": "Oxford",
-                "time": "13-1-1154",
-                "notes": "(with Stephen)",
-                "osGrid": "SP5130006100",
+                "date": "13-1-1154",
+                "comments": "(with Stephen)",
+                "OSGrid": "SP5130006100",
                 "nation": "England"
             }
         },
@@ -1104,9 +1104,9 @@
             "properties": {
                 "id": 74,
                 "location": "? St. Albans",
-                "time": "1154",
-                "notes": "",
-                "osGrid": "TL1480007300",
+                "date": "1154",
+                "comments": "",
+                "OSGrid": "TL1480007300",
                 "nation": "England"
             }
         },
@@ -1119,9 +1119,9 @@
             "properties": {
                 "id": 75,
                 "location": "Dunstable",
-                "time": "1154",
-                "notes": "(with Stephen)",
-                "osGrid": "TL0188821864",
+                "date": "1154",
+                "comments": "(with Stephen)",
+                "OSGrid": "TL0188821864",
                 "nation": "England"
             }
         },
@@ -1134,9 +1134,9 @@
             "properties": {
                 "id": 76,
                 "location": "Canterbury",
-                "time": "2-1154",
-                "notes": "(with Stephen)",
-                "osGrid": "TR1454057430",
+                "date": "2-1154",
+                "comments": "(with Stephen)",
+                "OSGrid": "TR1454057430",
                 "nation": "England"
             }
         },
@@ -1149,9 +1149,9 @@
             "properties": {
                 "id": 77,
                 "location": "Dover",
-                "time": "1154",
-                "notes": "(with Stephen)",
-                "osGrid": "TR3161341898",
+                "date": "1154",
+                "comments": "(with Stephen)",
+                "OSGrid": "TR3161341898",
                 "nation": "England"
             }
         },
@@ -1164,9 +1164,9 @@
             "properties": {
                 "id": 78,
                 "location": "London",
-                "time": "1154",
-                "notes": "",
-                "osGrid": "TQ3248081340",
+                "date": "1154",
+                "comments": "",
+                "OSGrid": "TQ3248081340",
                 "nation": "England"
             }
         },
@@ -1179,9 +1179,9 @@
             "properties": {
                 "id": 79,
                 "location": "Rochester",
-                "time": "3-3-1154",
-                "notes": "",
-                "osGrid": "TQ7414268559",
+                "date": "3-3-1154",
+                "comments": "",
+                "OSGrid": "TQ7414268559",
                 "nation": "England"
             }
         },
@@ -1194,9 +1194,9 @@
             "properties": {
                 "id": 80,
                 "location": "? Eu",
-                "time": "1154",
-                "notes": "",
-                "osGrid": "",
+                "date": "1154",
+                "comments": "",
+                "OSGrid": "",
                 "nation": "France"
             }
         },
@@ -1209,9 +1209,9 @@
             "properties": {
                 "id": 81,
                 "location": "? Perigueux",
-                "time": "1154",
-                "notes": "",
-                "osGrid": "",
+                "date": "1154",
+                "comments": "",
+                "OSGrid": "",
                 "nation": "France"
             }
         },
@@ -1224,9 +1224,9 @@
             "properties": {
                 "id": 82,
                 "location": "Fontevrault",
-                "time": "21-5-1154",
-                "notes": "",
-                "osGrid": "",
+                "date": "21-5-1154",
+                "comments": "",
+                "OSGrid": "",
                 "nation": "France"
             }
         },
@@ -1239,9 +1239,9 @@
             "properties": {
                 "id": 83,
                 "location": "Le Mans",
-                "time": "1154",
-                "notes": "",
-                "osGrid": "",
+                "date": "1154",
+                "comments": "",
+                "OSGrid": "",
                 "nation": "France"
             }
         },
@@ -1254,9 +1254,9 @@
             "properties": {
                 "id": 84,
                 "location": "? Caen",
-                "time": "1154",
-                "notes": "",
-                "osGrid": "",
+                "date": "1154",
+                "comments": "",
+                "OSGrid": "",
                 "nation": "France"
             }
         },
@@ -1269,9 +1269,9 @@
             "properties": {
                 "id": 85,
                 "location": "? Lisieux",
-                "time": "1154",
-                "notes": "",
-                "osGrid": "",
+                "date": "1154",
+                "comments": "",
+                "OSGrid": "",
                 "nation": "France"
             }
         },
@@ -1284,9 +1284,9 @@
             "properties": {
                 "id": 86,
                 "location": "Rouen",
-                "time": "24-6-1154",
-                "notes": "",
-                "osGrid": "",
+                "date": "24-6-1154",
+                "comments": "",
+                "OSGrid": "",
                 "nation": "France"
             }
         },
@@ -1299,9 +1299,9 @@
             "properties": {
                 "id": 88,
                 "location": "In the Vexin with Louis VII",
-                "time": "1-10-1154",
-                "notes": "",
-                "osGrid": "",
+                "date": "1-10-1154",
+                "comments": "",
+                "OSGrid": "",
                 "nation": "France"
             }
         },
@@ -1309,14 +1309,14 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [0.051667, 47.181389]
+                "coordinates": [0.9433, 48.9614]
             },
             "properties": {
                 "id": 89,
                 "location": "? Lire in the forest of Conches",
-                "time": "1154",
-                "notes": "",
-                "osGrid": "",
+                "date": "1154",
+                "comments": "",
+                "OSGrid": "",
                 "nation": ""
             }
         },
@@ -1329,9 +1329,9 @@
             "properties": {
                 "id": 90,
                 "location": "Torigni ",
-                "time": "25-10-1154",
-                "notes": "(15 days' siege, during which news received of Stephen's death)",
-                "osGrid": "",
+                "date": "25-10-1154",
+                "comments": "(15 days' siege, during which news received of Stephen's death)",
+                "OSGrid": "",
                 "nation": "France"
             }
         },
@@ -1344,9 +1344,9 @@
             "properties": {
                 "id": 91,
                 "location": "Barfleur",
-                "time": "1/11-7/12-1154",
-                "notes": "(waiting for favourable wind)",
-                "osGrid": "",
+                "date": "1/11-7/12-1154",
+                "comments": "(waiting for favourable wind)",
+                "OSGrid": "",
                 "nation": "France"
             }
         },
@@ -1359,9 +1359,9 @@
             "properties": {
                 "id": 92,
                 "location": "Hostreham",
-                "time": "8-12-1154",
-                "notes": "",
-                "osGrid": "",
+                "date": "8-12-1154",
+                "comments": "",
+                "OSGrid": "",
                 "nation": "France"
             }
         },
@@ -1374,9 +1374,9 @@
             "properties": {
                 "id": 93,
                 "location": "Winchester",
-                "time": "1154",
-                "notes": "",
-                "osGrid": "SU4779329466",
+                "date": "1154",
+                "comments": "",
+                "OSGrid": "SU4779329466",
                 "nation": "England"
             }
         },
@@ -1389,9 +1389,9 @@
             "properties": {
                 "id": 94,
                 "location": "Westminster",
-                "time": "19-12-1154",
-                "notes": "(coronation)",
-                "osGrid": "TQ3016079670",
+                "date": "19-12-1154",
+                "comments": "(coronation)",
+                "OSGrid": "TQ3016079670",
                 "nation": "England"
             }
         }

@@ -1,6 +1,3 @@
-Edward IV - issues with dates after record 63
-    Issue was in google docs, have now updated, next step is to recreate the geojson file
-
 Add tab to section and other accessibilty functions, ie colourblind tests
 
 Add an 'how it was made' page, shows snippits of code and explains for others to use it

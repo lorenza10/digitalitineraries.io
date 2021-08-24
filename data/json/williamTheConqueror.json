@@ -9,12 +9,13 @@
             "properties": {
                 "id": 1,
                 "location": "Caen",
-                "date": "17",
+                "day": "17",
                 "month": "june",
                 "year": 1066,
                 "month(number)": 6,
-                "time": "17-6-1066",
-                "OSGridRef": ""
+                "date": "17-6-1066",
+                "OSGridRef": "",
+                "comments": ""
             }
         },
         {
@@ -26,12 +27,13 @@
             "properties": {
                 "id": 2,
                 "location": "Pevensey",
-                "date": "29",
+                "day": "29",
                 "month": "september",
                 "year": 1066,
                 "month(number)": 9,
-                "time": "29-9-1066",
-                "OSGridRef": "TQ6480304912"
+                "date": "29-9-1066",
+                "OSGridRef": "TQ6480304912",
+                "comments": ""
             }
         },
         {
@@ -43,12 +45,13 @@
             "properties": {
                 "id": 3,
                 "location": "Senlac",
-                "date": "14",
+                "day": "14",
                 "month": "october",
                 "year": 1066,
                 "month(number)": 10,
-                "time": "14-10-1066",
-                "OSGridRef": "TQ7496715444"
+                "date": "14-10-1066",
+                "OSGridRef": "TQ7496715444",
+                "comments": ""
             }
         },
         {
@@ -60,12 +63,13 @@
             "properties": {
                 "id": 4,
                 "location": "Senlac",
-                "date": "15",
+                "day": "15",
                 "month": "october",
                 "year": 1066,
                 "month(number)": 10,
-                "time": "15-10-1066",
-                "OSGridRef": "TQ7496715444"
+                "date": "15-10-1066",
+                "OSGridRef": "TQ7496715444",
+                "comments": ""
             }
         },
         {
@@ -77,12 +81,13 @@
             "properties": {
                 "id": 5,
                 "location": "Westminster",
-                "date": "25",
+                "day": "25",
                 "month": "december",
                 "year": 1066,
                 "month(number)": 12,
-                "time": "25-12-1066",
-                "OSGridRef": "TQ3016079670"
+                "date": "25-12-1066",
+                "OSGridRef": "TQ3016079670",
+                "comments": ""
             }
         },
         {
@@ -94,12 +99,13 @@
             "properties": {
                 "id": 7,
                 "location": "Fécamp",
-                "date": "8",
+                "day": "8",
                 "month": "april",
                 "year": 1067,
                 "month(number)": 4,
-                "time": "8-4-1067",
-                "OSGridRef": ""
+                "date": "8-4-1067",
+                "OSGridRef": "",
+                "comments": ""
             }
         },
         {
@@ -111,12 +117,13 @@
             "properties": {
                 "id": 8,
                 "location": "Vaudreuil",
-                "date": "-",
+                "day": "-",
                 "month": "april",
                 "year": 1067,
                 "month(number)": 4,
-                "time": "4-1067",
-                "OSGridRef": ""
+                "date": "4-1067",
+                "OSGridRef": "",
+                "comments": ""
             }
         },
         {
@@ -128,12 +135,13 @@
             "properties": {
                 "id": 9,
                 "location": "St. Pierre sur Dive",
-                "date": "1",
+                "day": "1",
                 "month": "may",
                 "year": 1067,
                 "month(number)": 5,
-                "time": "1-5-1067",
-                "OSGridRef": ""
+                "date": "1-5-1067",
+                "OSGridRef": "",
+                "comments": ""
             }
         },
         {
@@ -145,12 +153,13 @@
             "properties": {
                 "id": 10,
                 "location": "Jumiéges",
-                "date": "1",
+                "day": "1",
                 "month": "july",
                 "year": 1067,
                 "month(number)": 7,
-                "time": "1-7-1067",
-                "OSGridRef": ""
+                "date": "1-7-1067",
+                "OSGridRef": "",
+                "comments": ""
             }
         },
         {
@@ -162,12 +171,13 @@
             "properties": {
                 "id": 13,
                 "location": "London",
-                "date": "25",
+                "day": "25",
                 "month": "december",
                 "year": 1067,
                 "month(number)": 12,
-                "time": "25-12-1067",
-                "OSGridRef": "TQ3248081340"
+                "date": "25-12-1067",
+                "OSGridRef": "TQ3248081340",
+                "comments": ""
             }
         },
         {
@@ -179,12 +189,13 @@
             "properties": {
                 "id": 14,
                 "location": "Winchester",
-                "date": "23",
+                "day": "23",
                 "month": "march",
                 "year": 1068,
                 "month(number)": 3,
-                "time": "23-3-1068",
-                "OSGridRef": "SU4779329466"
+                "date": "23-3-1068",
+                "OSGridRef": "SU4779329466",
+                "comments": ""
             }
         },
         {
@@ -196,12 +207,13 @@
             "properties": {
                 "id": 15,
                 "location": "Westminster",
-                "date": "11",
+                "day": "11",
                 "month": "may",
                 "year": 1068,
                 "month(number)": 5,
-                "time": "11-5-1068",
-                "OSGridRef": "TQ3016079670"
+                "date": "11-5-1068",
+                "OSGridRef": "TQ3016079670",
+                "comments": ""
             }
         },
         {
@@ -213,12 +225,13 @@
             "properties": {
                 "id": 16,
                 "location": "Salisbury",
-                "date": "4",
+                "day": "4",
                 "month": "february",
                 "year": 1069,
                 "month(number)": 2,
-                "time": "4-2-1069",
-                "OSGridRef": "SU1450030500"
+                "date": "4-2-1069",
+                "OSGridRef": "SU1450030500",
+                "comments": ""
             }
         },
         {
@@ -230,12 +243,13 @@
             "properties": {
                 "id": 17,
                 "location": "Winchester",
-                "date": "12",
+                "day": "12",
                 "month": "april",
                 "year": 1069,
                 "month(number)": 4,
-                "time": "12-4-1069",
-                "OSGridRef": "SU4779329466"
+                "date": "12-4-1069",
+                "OSGridRef": "SU4779329466",
+                "comments": ""
             }
         },
         {
@@ -247,12 +261,13 @@
             "properties": {
                 "id": 18,
                 "location": "Winchester",
-                "date": "13",
+                "day": "13",
                 "month": "april",
                 "year": 1069,
                 "month(number)": 4,
-                "time": "13-4-1069",
-                "OSGridRef": "SU4779329466"
+                "date": "13-4-1069",
+                "OSGridRef": "SU4779329466",
+                "comments": ""
             }
         },
         {
@@ -264,12 +279,13 @@
             "properties": {
                 "id": 19,
                 "location": "Forest of Dean",
-                "date": "1",
+                "day": "1",
                 "month": "september",
                 "year": 1069,
                 "month(number)": 9,
-                "time": "1-9-1069",
-                "OSGridRef": "SO6285110287"
+                "date": "1-9-1069",
+                "OSGridRef": "SO6285110287",
+                "comments": ""
             }
         },
         {
@@ -281,12 +297,13 @@
             "properties": {
                 "id": 20,
                 "location": "Harrying of North",
-                "date": "-",
+                "day": "-",
                 "month": "november",
                 "year": 1069,
                 "month(number)": 11,
-                "time": "11-1069",
-                "OSGridRef": "NY8505099250"
+                "date": "11-1069",
+                "OSGridRef": "NY8505099250",
+                "comments": ""
             }
         },
         {
@@ -298,12 +315,13 @@
             "properties": {
                 "id": 21,
                 "location": "York",
-                "date": "25",
+                "day": "25",
                 "month": "december",
                 "year": 1069,
                 "month(number)": 12,
-                "time": "25-12-1069",
-                "OSGridRef": "SE6030051700"
+                "date": "25-12-1069",
+                "OSGridRef": "SE6030051700",
+                "comments": ""
             }
         },
         {
@@ -315,12 +333,13 @@
             "properties": {
                 "id": 22,
                 "location": "At river Tee",
-                "date": "1",
+                "day": "1",
                 "month": "january",
                 "year": 1070,
                 "month(number)": 1,
-                "time": "1-1-1070",
-                "OSGridRef": "NZ5511428469"
+                "date": "1-1-1070",
+                "OSGridRef": "NZ5511428469",
+                "comments": ""
             }
         },
         {
@@ -332,12 +351,13 @@
             "properties": {
                 "id": 23,
                 "location": "Winchester",
-                "date": "4",
+                "day": "4",
                 "month": "april",
                 "year": 1070,
                 "month(number)": 4,
-                "time": "4-4-1070",
-                "OSGridRef": "SU4779329466"
+                "date": "4-4-1070",
+                "OSGridRef": "SU4779329466",
+                "comments": ""
             }
         },
         {
@@ -349,12 +369,13 @@
             "properties": {
                 "id": 24,
                 "location": "Winchester",
-                "date": "11",
+                "day": "11",
                 "month": "april",
                 "year": 1070,
                 "month(number)": 4,
-                "time": "11-4-1070",
-                "OSGridRef": "SU4779329466"
+                "date": "11-4-1070",
+                "OSGridRef": "SU4779329466",
+                "comments": ""
             }
         },
         {
@@ -366,12 +387,13 @@
             "properties": {
                 "id": 25,
                 "location": "Windsor",
-                "date": "23",
+                "day": "23",
                 "month": "may",
                 "year": 1070,
                 "month(number)": 5,
-                "time": "23-5-1070",
-                "OSGridRef": "SU9683776912"
+                "date": "23-5-1070",
+                "OSGridRef": "SU9683776912",
+                "comments": ""
             }
         },
         {
@@ -383,12 +405,13 @@
             "properties": {
                 "id": 26,
                 "location": "Westminster",
-                "date": "27",
+                "day": "27",
                 "month": "may",
                 "year": 1070,
                 "month(number)": 5,
-                "time": "27-5-1070",
-                "OSGridRef": "TQ3016079670"
+                "date": "27-5-1070",
+                "OSGridRef": "TQ3016079670",
+                "comments": ""
             }
         },
         {
@@ -400,12 +423,13 @@
             "properties": {
                 "id": 27,
                 "location": "London",
-                "date": "-",
+                "day": "-",
                 "month": "january",
                 "year": 1071,
                 "month(number)": 1,
-                "time": "1-1071",
-                "OSGridRef": "TQ3248081340"
+                "date": "1-1071",
+                "OSGridRef": "TQ3248081340",
+                "comments": ""
             }
         },
         {
@@ -417,12 +441,13 @@
             "properties": {
                 "id": 28,
                 "location": "Ely",
-                "date": "27",
+                "day": "27",
                 "month": "october",
                 "year": 1071,
                 "month(number)": 10,
-                "time": "27-10-1071",
-                "OSGridRef": "TL5401380190"
+                "date": "27-10-1071",
+                "OSGridRef": "TL5401380190",
+                "comments": ""
             }
         },
         {
@@ -434,12 +459,13 @@
             "properties": {
                 "id": 29,
                 "location": "Winchester",
-                "date": "8",
+                "day": "8",
                 "month": "april",
                 "year": 1072,
                 "month(number)": 4,
-                "time": "8-4-1072",
-                "OSGridRef": "SU4779329466"
+                "date": "8-4-1072",
+                "OSGridRef": "SU4779329466",
+                "comments": ""
             }
         },
         {
@@ -451,12 +477,13 @@
             "properties": {
                 "id": 30,
                 "location": "Clarendon",
-                "date": "16",
+                "day": "16",
                 "month": "april",
                 "year": 1072,
                 "month(number)": 4,
-                "time": "16-4-1072",
-                "OSGridRef": "SU1817330220"
+                "date": "16-4-1072",
+                "OSGridRef": "SU1817330220",
+                "comments": ""
             }
         },
         {
@@ -468,12 +495,13 @@
             "properties": {
                 "id": 31,
                 "location": "Windsor",
-                "date": "27",
+                "day": "27",
                 "month": "may",
                 "year": 1072,
                 "month(number)": 5,
-                "time": "27-5-1072",
-                "OSGridRef": "SU9683776912"
+                "date": "27-5-1072",
+                "OSGridRef": "SU9683776912",
+                "comments": ""
             }
         },
         {
@@ -485,12 +513,13 @@
             "properties": {
                 "id": 32,
                 "location": "Scotland",
-                "date": "-",
+                "day": "-",
                 "month": "september",
                 "year": 1072,
                 "month(number)": 9,
-                "time": "9-1072",
-                "OSGridRef": "NS7950093500"
+                "date": "9-1072",
+                "OSGridRef": "NS7950093500",
+                "comments": ""
             }
         },
         {
@@ -502,12 +531,13 @@
             "properties": {
                 "id": 33,
                 "location": "Durham",
-                "date": "2",
+                "day": "2",
                 "month": "november",
                 "year": 1072,
                 "month(number)": 11,
-                "time": "2-11-1072",
-                "OSGridRef": "NZ2754642437"
+                "date": "2-11-1072",
+                "OSGridRef": "NZ2754642437",
+                "comments": ""
             }
         },
         {
@@ -519,12 +549,13 @@
             "properties": {
                 "id": 34,
                 "location": "Bonneville sur Touques",
-                "date": "30",
+                "day": "30",
                 "month": "march",
                 "year": 1073,
                 "month(number)": 3,
-                "time": "30-3-1073",
-                "OSGridRef": ""
+                "date": "30-3-1073",
+                "OSGridRef": "",
+                "comments": ""
             }
         },
         {
@@ -536,12 +567,13 @@
             "properties": {
                 "id": 35,
                 "location": "Le Mans",
-                "date": "-",
+                "day": "-",
                 "month": "april",
                 "year": 1073,
                 "month(number)": 4,
-                "time": "4-1073",
-                "OSGridRef": ""
+                "date": "4-1073",
+                "OSGridRef": "",
+                "comments": ""
             }
         },
         {
@@ -553,12 +585,13 @@
             "properties": {
                 "id": 36,
                 "location": "Rouen",
-                "date": "30",
+                "day": "30",
                 "month": "november",
                 "year": 1074,
                 "month(number)": 11,
-                "time": "30-11-1074",
-                "OSGridRef": ""
+                "date": "30-11-1074",
+                "OSGridRef": "",
+                "comments": ""
             }
         },
         {
@@ -570,12 +603,13 @@
             "properties": {
                 "id": 37,
                 "location": "Fécamp",
-                "date": "5",
+                "day": "5",
                 "month": "april",
                 "year": 1075,
                 "month(number)": 4,
-                "time": "5-4-1075",
-                "OSGridRef": ""
+                "date": "5-4-1075",
+                "OSGridRef": "",
+                "comments": ""
             }
         },
         {
@@ -587,12 +621,13 @@
             "properties": {
                 "id": 38,
                 "location": "Westminster",
-                "date": "25",
+                "day": "25",
                 "month": "december",
                 "year": 1075,
                 "month(number)": 12,
-                "time": "25-12-1075",
-                "OSGridRef": "TQ3016079670"
+                "date": "25-12-1075",
+                "OSGridRef": "TQ3016079670",
+                "comments": ""
             }
         },
         {
@@ -604,12 +639,13 @@
             "properties": {
                 "id": 39,
                 "location": "Brittany",
-                "date": "-",
+                "day": "-",
                 "month": "may",
                 "year": 1076,
                 "month(number)": 5,
-                "time": "5-1076",
-                "OSGridRef": ""
+                "date": "5-1076",
+                "OSGridRef": "",
+                "comments": ""
             }
         },
         {
@@ -621,12 +657,13 @@
             "properties": {
                 "id": 40,
                 "location": "Rouen",
-                "date": "25",
+                "day": "25",
                 "month": "july",
                 "year": 1077,
                 "month(number)": 7,
-                "time": "25-7-1077",
-                "OSGridRef": ""
+                "date": "25-7-1077",
+                "OSGridRef": "",
+                "comments": ""
             }
         },
         {
@@ -638,12 +675,13 @@
             "properties": {
                 "id": 41,
                 "location": "Caen",
-                "date": "13",
+                "day": "13",
                 "month": "september",
                 "year": 1077,
                 "month(number)": 9,
-                "time": "13-9-1077",
-                "OSGridRef": ""
+                "date": "13-9-1077",
+                "OSGridRef": "",
+                "comments": ""
             }
         },
         {
@@ -655,12 +693,13 @@
             "properties": {
                 "id": 42,
                 "location": "Gerberoy",
-                "date": "-",
+                "day": "-",
                 "month": "january",
                 "year": 1079,
                 "month(number)": 1,
-                "time": "1-1079",
-                "OSGridRef": ""
+                "date": "1-1079",
+                "OSGridRef": "",
+                "comments": ""
             }
         },
         {
@@ -672,12 +711,13 @@
             "properties": {
                 "id": 43,
                 "location": "Caen",
-                "date": "7",
+                "day": "7",
                 "month": "january",
                 "year": 1080,
                 "month(number)": 1,
-                "time": "7-1-1080",
-                "OSGridRef": ""
+                "date": "7-1-1080",
+                "OSGridRef": "",
+                "comments": ""
             }
         },
         {
@@ -689,12 +729,13 @@
             "properties": {
                 "id": 44,
                 "location": "St. Georges de Boscherville",
-                "date": "11",
+                "day": "11",
                 "month": "january",
                 "year": 1080,
                 "month(number)": 1,
-                "time": "11-1-1080",
-                "OSGridRef": ""
+                "date": "11-1-1080",
+                "OSGridRef": "",
+                "comments": ""
             }
         },
         {
@@ -706,12 +747,13 @@
             "properties": {
                 "id": 45,
                 "location": "Rouen",
-                "date": "12",
+                "day": "12",
                 "month": "april",
                 "year": 1080,
                 "month(number)": 4,
-                "time": "12-4-1080",
-                "OSGridRef": ""
+                "date": "12-4-1080",
+                "OSGridRef": "",
+                "comments": ""
             }
         },
         {
@@ -723,12 +765,13 @@
             "properties": {
                 "id": 46,
                 "location": "Lillebonne",
-                "date": "31",
+                "day": "31",
                 "month": "may",
                 "year": 1080,
                 "month(number)": 5,
-                "time": "31-5-1080",
-                "OSGridRef": ""
+                "date": "31-5-1080",
+                "OSGridRef": "",
+                "comments": ""
             }
         },
         {
@@ -740,12 +783,13 @@
             "properties": {
                 "id": 47,
                 "location": "Caen",
-                "date": "14",
+                "day": "14",
                 "month": "july",
                 "year": 1080,
                 "month(number)": 7,
-                "time": "14-7-1080",
-                "OSGridRef": ""
+                "date": "14-7-1080",
+                "OSGridRef": "",
+                "comments": ""
             }
         },
         {
@@ -757,12 +801,13 @@
             "properties": {
                 "id": 48,
                 "location": "Berkeley",
-                "date": "25",
+                "day": "25",
                 "month": "december",
                 "year": 1080,
                 "month(number)": 12,
-                "time": "25-12-1080",
-                "OSGridRef": "ST6850098900"
+                "date": "25-12-1080",
+                "OSGridRef": "ST6850098900",
+                "comments": ""
             }
         },
         {
@@ -774,12 +819,13 @@
             "properties": {
                 "id": 49,
                 "location": "Gloucester",
-                "date": "3",
+                "day": "3",
                 "month": "january",
                 "year": 1081,
                 "month(number)": 1,
-                "time": "3-1-1081",
-                "OSGridRef": "SO8320018600"
+                "date": "3-1-1081",
+                "OSGridRef": "SO8320018600",
+                "comments": ""
             }
         },
         {
@@ -791,12 +837,13 @@
             "properties": {
                 "id": 50,
                 "location": "London",
-                "date": "-",
+                "day": "-",
                 "month": "february",
                 "year": 1081,
                 "month(number)": 2,
-                "time": "2-1081",
-                "OSGridRef": "TQ3248081340"
+                "date": "2-1081",
+                "OSGridRef": "TQ3248081340",
+                "comments": ""
             }
         },
         {
@@ -808,12 +855,13 @@
             "properties": {
                 "id": 51,
                 "location": "Winchester",
-                "date": "31",
+                "day": "31",
                 "month": "may",
                 "year": 1081,
                 "month(number)": 5,
-                "time": "31-5-1081",
-                "OSGridRef": "SU4779329466"
+                "date": "31-5-1081",
+                "OSGridRef": "SU4779329466",
+                "comments": ""
             }
         },
         {
@@ -825,12 +873,13 @@
             "properties": {
                 "id": 52,
                 "location": "Westminster",
-                "date": "25",
+                "day": "25",
                 "month": "december",
                 "year": 1081,
                 "month(number)": 12,
-                "time": "25-12-1081",
-                "OSGridRef": "TQ3016079670"
+                "date": "25-12-1081",
+                "OSGridRef": "TQ3016079670",
+                "comments": ""
             }
         },
         {
@@ -842,12 +891,13 @@
             "properties": {
                 "id": 53,
                 "location": "Oissel",
-                "date": "24",
+                "day": "24",
                 "month": "june",
                 "year": 1082,
                 "month(number)": 6,
-                "time": "24-6-1082",
-                "OSGridRef": ""
+                "date": "24-6-1082",
+                "OSGridRef": "",
+                "comments": ""
             }
         },
         {
@@ -859,12 +909,13 @@
             "properties": {
                 "id": 55,
                 "location": "Gloucester",
-                "date": "25",
+                "day": "25",
                 "month": "december",
                 "year": 1082,
                 "month(number)": 12,
-                "time": "25-12-1082",
-                "OSGridRef": "SO8320018600"
+                "date": "25-12-1082",
+                "OSGridRef": "SO8320018600",
+                "comments": ""
             }
         },
         {
@@ -876,12 +927,13 @@
             "properties": {
                 "id": 56,
                 "location": "Fécamp",
-                "date": "9",
+                "day": "9",
                 "month": "april",
                 "year": 1083,
                 "month(number)": 4,
-                "time": "9-4-1083",
-                "OSGridRef": ""
+                "date": "9-4-1083",
+                "OSGridRef": "",
+                "comments": ""
             }
         },
         {
@@ -893,12 +945,13 @@
             "properties": {
                 "id": 57,
                 "location": "Westminster",
-                "date": "19",
+                "day": "19",
                 "month": "may",
                 "year": 1084,
                 "month(number)": 5,
-                "time": "19-5-1084",
-                "OSGridRef": "TQ3016079670"
+                "date": "19-5-1084",
+                "OSGridRef": "TQ3016079670",
+                "comments": ""
             }
         },
         {
@@ -910,12 +963,13 @@
             "properties": {
                 "id": 58,
                 "location": "Rouen",
-                "date": "19",
+                "day": "19",
                 "month": "june",
                 "year": 1084,
                 "month(number)": 6,
-                "time": "19-6-1084",
-                "OSGridRef": ""
+                "date": "19-6-1084",
+                "OSGridRef": "",
+                "comments": ""
             }
         },
         {
@@ -927,12 +981,13 @@
             "properties": {
                 "id": 59,
                 "location": "Winchester",
-                "date": "6",
+                "day": "6",
                 "month": "april",
                 "year": 1086,
                 "month(number)": 4,
-                "time": "6-4-1086",
-                "OSGridRef": "SU4779329466"
+                "date": "6-4-1086",
+                "OSGridRef": "SU4779329466",
+                "comments": ""
             }
         },
         {
@@ -944,12 +999,13 @@
             "properties": {
                 "id": 60,
                 "location": "Westminster",
-                "date": "24",
+                "day": "24",
                 "month": "may",
                 "year": 1086,
                 "month(number)": 5,
-                "time": "24-5-1086",
-                "OSGridRef": "TQ3016079670"
+                "date": "24-5-1086",
+                "OSGridRef": "TQ3016079670",
+                "comments": ""
             }
         },
         {
@@ -961,12 +1017,13 @@
             "properties": {
                 "id": 61,
                 "location": "Salisbury",
-                "date": "1",
+                "day": "1",
                 "month": "august",
                 "year": 1086,
                 "month(number)": 8,
-                "time": "1-8-1086",
-                "OSGridRef": "SU1450030500"
+                "date": "1-8-1086",
+                "OSGridRef": "SU1450030500",
+                "comments": ""
             }
         },
         {
@@ -978,12 +1035,13 @@
             "properties": {
                 "id": 62,
                 "location": "Mantes",
-                "date": "24",
+                "day": "24",
                 "month": "july",
                 "year": 1087,
                 "month(number)": 7,
-                "time": "24-7-1087",
-                "OSGridRef": ""
+                "date": "24-7-1087",
+                "OSGridRef": "",
+                "comments": ""
             }
         },
         {
@@ -995,12 +1053,13 @@
             "properties": {
                 "id": 63,
                 "location": "Mantes",
-                "date": "25",
+                "day": "25",
                 "month": "july",
                 "year": 1087,
                 "month(number)": 7,
-                "time": "25-7-1087",
-                "OSGridRef": ""
+                "date": "25-7-1087",
+                "OSGridRef": "",
+                "comments": ""
             }
         },
         {
@@ -1012,12 +1071,13 @@
             "properties": {
                 "id": 64,
                 "location": "Mantes",
-                "date": "26",
+                "day": "26",
                 "month": "july",
                 "year": 1087,
                 "month(number)": 7,
-                "time": "26-7-1087",
-                "OSGridRef": ""
+                "date": "26-7-1087",
+                "OSGridRef": "",
+                "comments": ""
             }
         },
         {
@@ -1029,12 +1089,13 @@
             "properties": {
                 "id": 65,
                 "location": "Mantes",
-                "date": "27",
+                "day": "27",
                 "month": "july",
                 "year": 1087,
                 "month(number)": 7,
-                "time": "27-7-1087",
-                "OSGridRef": ""
+                "date": "27-7-1087",
+                "OSGridRef": "",
+                "comments": ""
             }
         },
         {
@@ -1046,12 +1107,13 @@
             "properties": {
                 "id": 66,
                 "location": "Mantes",
-                "date": "28",
+                "day": "28",
                 "month": "july",
                 "year": 1087,
                 "month(number)": 7,
-                "time": "28-7-1087",
-                "OSGridRef": ""
+                "date": "28-7-1087",
+                "OSGridRef": "",
+                "comments": ""
             }
         },
         {
@@ -1063,12 +1125,13 @@
             "properties": {
                 "id": 67,
                 "location": "Mantes",
-                "date": "29",
+                "day": "29",
                 "month": "july",
                 "year": 1087,
                 "month(number)": 7,
-                "time": "29-7-1087",
-                "OSGridRef": ""
+                "date": "29-7-1087",
+                "OSGridRef": "",
+                "comments": ""
             }
         },
         {
@@ -1080,12 +1143,13 @@
             "properties": {
                 "id": 68,
                 "location": "Mantes",
-                "date": "30",
+                "day": "30",
                 "month": "july",
                 "year": 1087,
                 "month(number)": 7,
-                "time": "30-7-1087",
-                "OSGridRef": ""
+                "date": "30-7-1087",
+                "OSGridRef": "",
+                "comments": ""
             }
         },
         {
@@ -1097,12 +1161,13 @@
             "properties": {
                 "id": 69,
                 "location": "Mantes",
-                "date": "31",
+                "day": "31",
                 "month": "july",
                 "year": 1087,
                 "month(number)": 7,
-                "time": "31-7-1087",
-                "OSGridRef": ""
+                "date": "31-7-1087",
+                "OSGridRef": "",
+                "comments": ""
             }
         },
         {
@@ -1114,12 +1179,13 @@
             "properties": {
                 "id": 70,
                 "location": "Rouen",
-                "date": "9",
+                "day": "9",
                 "month": "september",
                 "year": 1087,
                 "month(number)": 9,
-                "time": "9-9-1087",
-                "OSGridRef": ""
+                "date": "9-9-1087",
+                "OSGridRef": "",
+                "comments": ""
             }
         }
     ]

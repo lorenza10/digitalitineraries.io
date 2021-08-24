@@ -1,4 +1,4 @@
-id,location,time,OSGridRef,latitude ,longitude,Nation
+id,location,date,OSGridRef,latitude,longitude,Nation,comments
 1,Westminster,27-5-1199,TQ3016079670,51.500988,-0.12617168,England
 12,Northampton,7-6-1199,SP7549060562,52.238083,-0.89592755,England
 17,Canterbury,12-6-1199,TR1454057430,51.275608,1.0745524,England

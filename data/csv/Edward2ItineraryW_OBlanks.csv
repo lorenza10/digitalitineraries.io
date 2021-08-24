@@ -1,4 +1,4 @@
-id,date,location,month,year,month(no),time,OSGridRef,latitude ,longitude,Nation,Notes
+id,day,location,month,year,month(no),date,OSGridRef,latitude ,longitude,Nation,comments
 1,24,Carlisle,july,1307,7,24-7-1307,NY3954755548,54.891,-2.944,England,
 2,6,Dumfries,august,1307,8,6-8-1307,NX9773776234,55.07,-3.603,Scotland,
 3,18,Sanquhar,august,1307,8,18-8-1307,NS7811609901,55.36793,-3.92463,Scotland,Appears as Senewhare

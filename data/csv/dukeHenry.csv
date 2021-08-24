@@ -1,4 +1,4 @@
-id,location,time,notes,osGrid,latitude,longitude,nation
+id,location,date,comments,OSGrid,latitude,longitude,nation
 1,Le Bec-Hellouin,29-5-1147,,,49.2325,0.7217,France
 2,Rouen,11-10-1147,,,49.442778,1.088611,France
 3,Devizes,13-4-1149,,SU0051461547,51.353,-1.994,England
@@ -87,7 +87,7 @@ id,location,time,notes,osGrid,latitude,longitude,nation
 86,Rouen,24-6-1154,,,49.442778,1.088611,France
 87,Peace with Louis VII,1154,,,,,
 88,In the Vexin with Louis VII,1-10-1154,,,49.151726,1.787148,France
-89,? Lire in the forest of Conches,1154,,,,,
+89,? Lire in the forest of Conches,1154,,,48.9614,0.9433,France
 90,Torigni ,25-10-1154,"(15 days' siege, during which news received of Stephen's death)",,49.0361,-0.9783,France
 91,Barfleur,1/11-7/12-1154,(waiting for favourable wind),,49.6711,-1.2633,France
 92,Hostreham,8-12-1154,,,49.28,-0.26,France

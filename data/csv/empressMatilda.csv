@@ -1,4 +1,4 @@
-id,location,date,month,year,month(number),time,comments,OSGridRef,latitude,longitude
+id,location,day,month,year,month(number),date,comments,OSGridRef,latitude,longitude
 1,Arundel,30,Sept,1139,9,30-9-1139,,TQ0188707093,50.85439,-0.5539
 2,Bristol,30,Sept,1139,9,30-9-1139,,ST5833772855,51.453134,-2.600982
 3,Gloucester,30,Sept,1139,9,30-9-1139,,SO8320018600,51.865722,-2.245387

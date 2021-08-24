@@ -1,4 +1,4 @@
-id,year,date,month,location,notes,time,OSGridRef,latitude ,longitude,Nation
+id,year,day,month,location,comments,date,OSGridRef,latitude,longitude,Nation
 1,1100,2,Aug,Winchester,,2-8-1100,SU4779329466,51.062549,-1.3193687,England
 2,1100,3,Aug,Winchester,,3-8-1100,SU4779329466,51.062549,-1.3193687,England
 3,1100,4,Aug,London,,4-8-1100,TQ3248081340,51.515457,-0.092140265,England
@@ -73,7 +73,7 @@ id,year,date,month,location,notes,time,OSGridRef,latitude ,longitude,Nation
 75,1106,13,May,Salisbury,,13-5-1106,SU1428229527,51.064904,-1.7975682,England
 76,1106,1,Aug,Normandy,"Appears as ""a 1 Aug""",1-8-1106,,48.88,0.17,France
 77,1106,15,Aug,Bec,,15-8-1106,,49.2288,0.722,France
-78,1106,,Aug—Sept,Saint-Pierre-sur-Dives,,1106,,49.02,-0.03,France
+78,1106,,Augï¿½Sept,Saint-Pierre-sur-Dives,,1106,,49.02,-0.03,France
 79,1106,28,Sept,Tinchebrai,,28-9-1106,SU1428229527,51.064903,-1.7975624,England
 80,1106,,Oct,Falaise,,1106,,48.897222,-0.1975,France
 81,1106,,Oct,Rouen,,1106,,49.442778,1.088611,France
@@ -105,9 +105,9 @@ id,year,date,month,location,notes,time,OSGridRef,latitude ,longitude,Nation
 113,1112,4,Nov,Bonneville-sur-Touques,,4-11-1112,,49.3389,0.1206,France
 114,1113,2,Feb,Saint-Evroult-en-Ouche,,2-2-1113,,48.790556,0.463889,France
 115,1113,3,Feb,Saint-Evroult-en-Ouche,,3-2-1113,,48.790556,0.463889,France
-123,1113,1,May,Bellême,,1-5-1113,,48.3772,0.5614,France
-124,1113,2,May,Bellême,,2-5-1113,,48.3772,0.5614,France
-125,1113,3,May,Bellême,,3-5-1113,,48.3772,0.5614,France
+123,1113,1,May,Bellï¿½me,,1-5-1113,,48.3772,0.5614,France
+124,1113,2,May,Bellï¿½me,,2-5-1113,,48.3772,0.5614,France
+125,1113,3,May,Bellï¿½me,,3-5-1113,,48.3772,0.5614,France
 126,1113,25,May,Normandy,,25-5-1113,,48.88,0.17,France
 128,1113,25,Dec,Windsor,,25-12-1113,SU9683776912,51.482886,-0.60683638,England
 130,1114,26,Apr,Windsor,(Council),26-4-1114,SU9683776912,51.482886,-0.60683638,England
@@ -142,15 +142,15 @@ id,year,date,month,location,notes,time,OSGridRef,latitude ,longitude,Nation
 162,1117,,June-July,Rouen,,1117,,49.442778,1.088611,France
 163,1118,,Feb,Saint-Clair-sur-Epte,,2-1118,,49.2081,1.6803,France
 164,1118,,July-Avg,Saint-Clair-sur-Epte,,1118,,49.2081,1.6803,France
-165,1118,23,July,Alençon,,23-7-1118,,48.4306,0.0931,France
-166,1118,24,July,Alençon,,24-7-1118,,48.4306,0.0931,France
-167,1118,25,July,Alençon,,25-7-1118,,48.4306,0.0931,France
-168,1118,26,July,Alençon,,26-7-1118,,48.4306,0.0931,France
-169,1118,27,July,Alençon,,27-7-1118,,48.4306,0.0931,France
-170,1118,28,July,Alençon,,28-7-1118,,48.4306,0.0931,France
-171,1118,29,July,Alençon,,29-7-1118,,48.4306,0.0931,France
-172,1118,30,July,Alençon,,30-7-1118,,48.4306,0.0931,France
-173,1118,31,July,Alençon,,31-7-1118,,48.4306,0.0931,France
+165,1118,23,July,Alenï¿½on,,23-7-1118,,48.4306,0.0931,France
+166,1118,24,July,Alenï¿½on,,24-7-1118,,48.4306,0.0931,France
+167,1118,25,July,Alenï¿½on,,25-7-1118,,48.4306,0.0931,France
+168,1118,26,July,Alenï¿½on,,26-7-1118,,48.4306,0.0931,France
+169,1118,27,July,Alenï¿½on,,27-7-1118,,48.4306,0.0931,France
+170,1118,28,July,Alenï¿½on,,28-7-1118,,48.4306,0.0931,France
+171,1118,29,July,Alenï¿½on,,29-7-1118,,48.4306,0.0931,France
+172,1118,30,July,Alenï¿½on,,30-7-1118,,48.4306,0.0931,France
+173,1118,31,July,Alenï¿½on,,31-7-1118,,48.4306,0.0931,France
 174,1118,7,Sept,Laigle,,7-9-1118,,48.77,0.63,France
 175,1118,8,Sept,Laigle,,8-9-1118,,48.77,0.63,France
 176,1118,,Sept,Livet,,9-1118,,48.1086,-0.4603,France
@@ -159,35 +159,35 @@ id,year,date,month,location,notes,time,OSGridRef,latitude ,longitude,Nation
 179,1118,,Sept,Arques,,9-1118,,49.8817,1.1269,France
 180,1118,,Sept,Bures,,9-1118,,48.5639,0.4022,France
 181,1118,7,Oct,Rouen,,7-10-1118,,49.442778,1.088611,France
-182,1118,,Oct-Nov,Near Évreux,,1118,,49.02,1.15,France
+182,1118,,Oct-Nov,Near ï¿½vreux,,1118,,49.02,1.15,France
 183,1118,,,Laigle,,1118,,48.77,0.63,France
-184,1118,,Dec,Near Alençon,,12-1118,,48.4306,0.0931,France
-185,1119,16,Feb,Bréteuil,,16-2-1119,,48.8369,0.9147,France
-186,1119,17,Feb,Bréteuil,,17-2-1119,,48.8369,0.9147,France
-187,1119,18,Feb,Bréteuil,,18-2-1119,,48.8369,0.9147,France
-188,1119,19,Feb,Bréteuil,,19-2-1119,,48.8369,0.9147,France
-189,1119,20,Feb,Bréteuil,,20-2-1119,,48.8369,0.9147,France
-190,1119,21,Feb,Bréteuil,,21-2-1119,,48.8369,0.9147,France
-191,1119,22,Feb,Bréteuil,,22-2-1119,,48.8369,0.9147,France
+184,1118,,Dec,Near Alenï¿½on,,12-1118,,48.4306,0.0931,France
+185,1119,16,Feb,Brï¿½teuil,,16-2-1119,,48.8369,0.9147,France
+186,1119,17,Feb,Brï¿½teuil,,17-2-1119,,48.8369,0.9147,France
+187,1119,18,Feb,Brï¿½teuil,,18-2-1119,,48.8369,0.9147,France
+188,1119,19,Feb,Brï¿½teuil,,19-2-1119,,48.8369,0.9147,France
+189,1119,20,Feb,Brï¿½teuil,,20-2-1119,,48.8369,0.9147,France
+190,1119,21,Feb,Brï¿½teuil,,21-2-1119,,48.8369,0.9147,France
+191,1119,22,Feb,Brï¿½teuil,,22-2-1119,,48.8369,0.9147,France
 192,1119,,,Falaise,,1119,,48.897222,-0.1975,France
 193,1119,,Feb-Mar,Noyon (Eure),,1119,,49.3717,1.3839,France
-194,1119,17,May,La-Ferté-Fresnel,"appears as ""p 17 May""",17-5-1119,,48.8422,0.5117,France
+194,1119,17,May,La-Fertï¿½-Fresnel,"appears as ""p 17 May""",17-5-1119,,48.8422,0.5117,France
 195,1119,,June,Lisieux,,6-1119,,49.15,0.23,France
 196,1119,,July,Pont-Saint-Pierre,,7-1119,,49.3361,1.2758,France
-197,1119,,July,Évreux,,7-1119,,49.02,1.15,France
-198,1119,20,Aug,Noyon,(battle of La-Brémule),20-8-1119,,49.5817,2.9997,France
-199,1119,17,Sept,Bréteuil,,17-9-1119,,48.8369,0.9147,France
-200,1119,18,Sept,Bréteuil,,18-9-1119,,48.8369,0.9147,France
-201,1119,19,Sept,Bréteuil,,19-9-1119,,48.8369,0.9147,France
-202,1119,20,Sept,Bréteuil,,20-9-1119,,48.8369,0.9147,France
-203,1119,21,Sept,Bréteuil,,21-9-1119,,48.8369,0.9147,France
-204,1119,22,Sept,Bréteuil,,22-9-1119,,48.8369,0.9147,France
-205,1119,23,Sept,Bréteuil,,23-9-1119,,48.8369,0.9147,France
-206,1119,24,Sept,Bréteuil,,24-9-1119,,48.8369,0.9147,France
-207,1119,,,Glos-la-Ferriére,,1119,,48.8578,0.6019,France
+197,1119,,July,ï¿½vreux,,7-1119,,49.02,1.15,France
+198,1119,20,Aug,Noyon,(battle of La-Brï¿½mule),20-8-1119,,49.5817,2.9997,France
+199,1119,17,Sept,Brï¿½teuil,,17-9-1119,,48.8369,0.9147,France
+200,1119,18,Sept,Brï¿½teuil,,18-9-1119,,48.8369,0.9147,France
+201,1119,19,Sept,Brï¿½teuil,,19-9-1119,,48.8369,0.9147,France
+202,1119,20,Sept,Brï¿½teuil,,20-9-1119,,48.8369,0.9147,France
+203,1119,21,Sept,Brï¿½teuil,,21-9-1119,,48.8369,0.9147,France
+204,1119,22,Sept,Brï¿½teuil,,22-9-1119,,48.8369,0.9147,France
+205,1119,23,Sept,Brï¿½teuil,,23-9-1119,,48.8369,0.9147,France
+206,1119,24,Sept,Brï¿½teuil,,24-9-1119,,48.8369,0.9147,France
+207,1119,,,Glos-la-Ferriï¿½re,,1119,,48.8578,0.6019,France
 208,1119,,,Lyre,,1119,,48.9186,0.7508,England
 209,1119,,,Rouen,,1119,,49.442778,1.088611,France
-210,1119,,Oct,Évreux,,10-1119,,49.02,1.15,France
+210,1119,,Oct,ï¿½vreux,,10-1119,,49.02,1.15,France
 211,1119,,Oct,Vieux-Rouen,,10-1119,,49.8347,1.7211,France
 212,1119,20,Nov,Gisors,,20-11-1119,,49.2811,1.7772,France
 213,1119,21,Nov,Gisors,,21-11-1119,,49.2811,1.7772,France
@@ -295,7 +295,7 @@ id,year,date,month,location,notes,time,OSGridRef,latitude ,longitude,Nation
 317,1124,,Apr,Brionne,,4-1124,,49.1956,0.7211,France
 318,1124,18,May,Rouen,,18-5-1124,,49.442778,1.088611,France
 319,1125,,,Normandy,,12-1125,,48.88,0.17,France
-320,1126,23,Mar,Sées,,23-3-1126,,48.6053,0.1719,France
+320,1126,23,Mar,Sï¿½es,,23-3-1126,,48.6053,0.1719,France
 321,1126,,Mar,Rouen,,-1129,,49.442778,1.088611,France
 322,1126,11,Sept,Dieppe,(return to England),11-9-1126,,49.92,1.08,France
 323,1126,25,Dec,Windsor,,25-12-1126,SU9683776912,51.482886,-0.60683638,England
@@ -393,16 +393,16 @@ id,year,date,month,location,notes,time,OSGridRef,latitude ,longitude,Nation
 416,1133,,July,Fareham,,7-1133,SU5782205929,50.85,-1.18,England
 417,1133,,July,Westbourne,,7-1133,SZ0729791046,50.719,-1.898,England
 419,1134,,Sep,Verneuil,,9-1134,,48.7394,0.9286,France
-420,1134,,Aug-Oct,Sées,,Aug-Oct-1134,,48.6053,0.1719,France
-421,1134,,,Alençon,,1134,,48.4306,0.0931,France
+420,1134,,Aug-Oct,Sï¿½es,,Aug-Oct-1134,,48.6053,0.1719,France
+421,1134,,,Alenï¿½on,,1134,,48.4306,0.0931,France
 422,1134,,,Argentan,,1134,,48.75,-0.02,France
-423,1135,25,Nov,Lyons-la-Forét,,25-11-1135,,49.4003,1.4769,France
-424,1135,26,Nov,Lyons-la-Forét,,26-11-1135,,49.4003,1.4769,France
-425,1135,27,Nov,Lyons-la-Forét,,27-11-1135,,49.4003,1.4769,France
-426,1135,28,Nov,Lyons-la-Forét,,28-11-1135,,49.4003,1.4769,France
-427,1135,29,Nov,Lyons-la-Forét,,29-11-1135,,49.4003,1.4769,France
-428,1135,30,Nov,Lyons-la-Forét,,30-11-1135,,49.4003,1.4769,France
-429,1135,1,Dec,Lyons-la-Forét,(Death),1-12-1135,,49.4003,1.4769,France
+423,1135,25,Nov,Lyons-la-Forï¿½t,,25-11-1135,,49.4003,1.4769,France
+424,1135,26,Nov,Lyons-la-Forï¿½t,,26-11-1135,,49.4003,1.4769,France
+425,1135,27,Nov,Lyons-la-Forï¿½t,,27-11-1135,,49.4003,1.4769,France
+426,1135,28,Nov,Lyons-la-Forï¿½t,,28-11-1135,,49.4003,1.4769,France
+427,1135,29,Nov,Lyons-la-Forï¿½t,,29-11-1135,,49.4003,1.4769,France
+428,1135,30,Nov,Lyons-la-Forï¿½t,,30-11-1135,,49.4003,1.4769,France
+429,1135,1,Dec,Lyons-la-Forï¿½t,(Death),1-12-1135,,49.4003,1.4769,France
 405,1131,8,Sept,Northampton,,8-9-1131,SP7549060562,52.238083,-0.89592755,England
 406,1131,25,Dec,Dunstable,,25-12-1131,TL0188821864,51.88603,-0.52102,England
 407,1132,10,Apr,Woodstock,,10-4-1132,SP4400016000,51.840878,-1.362755,England
@@ -417,13 +417,13 @@ id,year,date,month,location,notes,time,OSGridRef,latitude ,longitude,Nation
 416,1133,,July,Fareham,,7-1133,SU5782205929,50.85,-1.18,England
 417,1133,,July,Westbourne,,7-1133,SZ0729791046,50.719,-1.898,England
 419,1134,,Sep,Verneuil,,9-1134,,48.7394,0.9286,France
-420,1134,,Aug-Oct,Sées,,Aug-Oct-1134,,48.6053,0.1719,France
-421,1134,,,Alençon,,1134,,48.4306,0.0931,France
+420,1134,,Aug-Oct,Sï¿½es,,Aug-Oct-1134,,48.6053,0.1719,France
+421,1134,,,Alenï¿½on,,1134,,48.4306,0.0931,France
 422,1134,,,Argentan,,1134,,48.75,-0.02,France
-423,1135,25,Nov,Lyons-la-Forét,,25-11-1135,,49.4003,1.4769,France
-424,1135,26,Nov,Lyons-la-Forét,,26-11-1135,,49.4003,1.4769,France
-425,1135,27,Nov,Lyons-la-Forét,,27-11-1135,,49.4003,1.4769,France
-426,1135,28,Nov,Lyons-la-Forét,,28-11-1135,,49.4003,1.4769,France
-427,1135,29,Nov,Lyons-la-Forét,,29-11-1135,,49.4003,1.4769,France
-428,1135,30,Nov,Lyons-la-Forét,,30-11-1135,,49.4003,1.4769,France
-429,1135,1,Dec,Lyons-la-Forét,(Death),1-12-1135,,49.4003,1.4769,France
+423,1135,25,Nov,Lyons-la-Forï¿½t,,25-11-1135,,49.4003,1.4769,France
+424,1135,26,Nov,Lyons-la-Forï¿½t,,26-11-1135,,49.4003,1.4769,France
+425,1135,27,Nov,Lyons-la-Forï¿½t,,27-11-1135,,49.4003,1.4769,France
+426,1135,28,Nov,Lyons-la-Forï¿½t,,28-11-1135,,49.4003,1.4769,France
+427,1135,29,Nov,Lyons-la-Forï¿½t,,29-11-1135,,49.4003,1.4769,France
+428,1135,30,Nov,Lyons-la-Forï¿½t,,30-11-1135,,49.4003,1.4769,France
+429,1135,1,Dec,Lyons-la-Forï¿½t,(Death),1-12-1135,,49.4003,1.4769,France

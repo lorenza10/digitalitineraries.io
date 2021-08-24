@@ -78,7 +78,7 @@ function getData(url) {
                     }
 
                     var html = '';
-                    var arrayOfProps = ['location', 'id', 'time', 'comments'];
+                    var arrayOfProps = ['location', 'id', 'date', 'comments'];
                     arrayOfProps.forEach(function(prop) {
                         html += '<strong>' + prop + '</strong>' + ': ' + geoJsonPoint.properties[prop] + '<br/>'
                     })

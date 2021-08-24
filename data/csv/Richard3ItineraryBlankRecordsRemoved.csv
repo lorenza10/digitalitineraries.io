@@ -1,4 +1,4 @@
-id,location,date,day,month,year,month(number),time,comment,OSGridRef,latitude,longitude
+id,location,weekday,day,month,year,month(number),date,comments,OSGridRef,latitude,longitude
 1,York,7,Monday,april,1483,4,7-4-1483,False news of King Edward IV's death reached York on 6th.  Requiem Mass was sung on 7th,SE6030051700,53.957883,-1.0825156
 2,York,8,Tuesday,april,1483,4,8-4-1483,,SE6030051700,53.957883,-1.0825156
 3,York,9,Wednesday,april,1483,4,9-4-1483,King Edward died,SE6030051700,53.957883,-1.0825156
