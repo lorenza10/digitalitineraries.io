@@ -5,12 +5,6 @@ Add tab to section and other accessibilty functions, ie colourblind tests
 
 Add an 'how it was made' page, shows snippits of code and explains for others to use it
 
-French characters are not appearing in the location data
-
 Add google sheets data
 
-Clean up circles
-
 Add data visualistation, ie charts and word diagrams to show the most visited places
-
-Issue when switching to any button after pressing play, need a reset or pause feature
