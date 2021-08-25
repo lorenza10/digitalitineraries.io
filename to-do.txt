@@ -1,5 +1,3 @@
-Add N/A to comments
-
 Add tab to section and other accessibilty functions, ie colourblind tests
 
 Add an 'how it was made' page, shows snippits of code and explains for others to use it
