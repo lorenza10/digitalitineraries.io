@@ -132,18 +132,19 @@ function getData(url) {
                 });
 
                 $('#restart').on('click', function() {
-                    clearTimeout();
-                    slider.noUiSlider.reset()
-                    var values = slider.noUiSlider.get();
-                    displayData(values);
+                    reset_data();
                 });
 
                 $('#monarch').on('change', function() {
+                    reset_data();
+                });
+
+                function reset_data() {
                     clearTimeout();
                     slider.noUiSlider.reset()
                     var values = slider.noUiSlider.get();
                     displayData(values);
-                });
+                }
 
                 $('#next').on('click', function() {
                     var values = slider.noUiSlider.get();
