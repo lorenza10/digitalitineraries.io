@@ -138,6 +138,13 @@ function getData(url) {
                     displayData(values);
                 });
 
+                $('#monarch').on('change', function() {
+                    clearTimeout();
+                    slider.noUiSlider.reset()
+                    var values = slider.noUiSlider.get();
+                    displayData(values);
+                });
+
                 $('#next').on('click', function() {
                     var values = slider.noUiSlider.get();
                     if (values <= max) {
